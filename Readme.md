@@ -1,17 +1,3 @@
-## Tech Stack
-
-- [Next JS](https://nextjs.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [NextUI](https://nextui.org/)
-- [Recharts](https://recharts.org/)
-- [Truffle](https://trufflesuite.com/)
-- [Solidity and Blockchain](https://soliditylang.org/)
-- [Ganache](https://trufflesuite.com/ganache/)
-- [Node JS](https://nodejs.org/en)
-- [Express JS](https://expressjs.com/)
-- [Moralis IPFS](https://moralis.io/)
-- [Luxon](https://www.npmjs.com/package/luxon)
-- [Python](https://www.python.org/)
 
 ## Key Features
 
