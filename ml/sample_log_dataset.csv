@@ -1,0 +1,501 @@
+Timestamp,Source,SourceClass,Destination,DestinationClass,User,Device,EventType,Description,Severity,MLRiskScore
+2024-07-20T12:45:31,10.0.0.100,malicious,10.0.0.101,safe,anonymous,DeviceXYZ,credit-limit-change,Credit limit change requested for account 247.48.5.183,low,0.5
+2024-07-20T12:45:31,217.151.51.228:54125,malicious,10.0.0.101,safe,admin,ServerABC,money-laundering-suspicion,Potential money laundering activity detected for account 224.192.217.195,low,0.63
+2024-07-20T12:45:31,10.0.0.100,malicious,10.10.10.20,safe,admin,ServerABC,auth-lockout,User 'admin' locked out after multiple failed login attempts from account 17.72.73.100,medium,0.57
+2024-07-20T12:45:31,10.0.0.100,malicious,192.168.2.6,safe,user123,Workstation123,payee-added,New payee added to account 145.32.221.89,medium,0.47
+2024-07-20T12:45:31,172.16.0.10,malicious,192.38.89.174,malicious,guest,ServerABC,auth-lockout,User 'guest' locked out after multiple failed login attempts from account 229.133.59.5,medium,0.83
+2024-07-20T12:45:31,192.168.10.5,malicious,214.120.40.159,malicious,admin,DeviceXYZ,account-closure,Account closure requested for 28.184.120.153,high,0.8
+2024-07-20T12:45:31,10.1.1.1,malicious,192.168.10.6,safe,admin,DeviceXYZ,account-closure,Account closure requested for 72.217.246.234,critical,0.53
+2024-07-20T12:45:31,10.0.0.2,malicious,69.169.172.33,malicious,user123,Workstation123,transaction-unusual-location,Transaction from unusual location for account 244.166.147.45,critical,0.87
+2024-07-20T12:45:31,192.168.2.5,malicious,192.168.10.6,safe,guest,DeviceXYZ,phishing-report,Phishing attempt reported by user of account 80.5.78.59,low,0.57
+2024-07-20T12:45:31,192.168.1.100,malicious,172.16.0.20,safe,admin,DeviceXYZ,money-laundering-suspicion,Potential money laundering activity detected for account 185.203.36.214,low,0.63
+2024-07-20T12:45:31,192.168.0.1,malicious,192.168.2.6,safe,guest,DeviceXYZ,transaction-unusual-location,Transaction from unusual location for account 235.18.171.1,medium,0.6
+2024-07-20T12:45:31,10.10.10.10,malicious,172.16.0.20,safe,guest,DeviceXYZ,account-closure,Account closure requested for 216.45.133.146,low,0.53
+2024-07-20T12:45:31,192.168.10.5,malicious,10.10.10.20,safe,anonymous,ServerABC,customer-info-change,Customer information changed for account 32.254.118.98,low,0.43
+2024-07-20T12:45:31,192.168.0.1,malicious,154.225.40.111,malicious,anonymous,Workstation123,account-closure,Account closure requested for 116.211.167.186,medium,0.8
+2024-07-20T12:45:31,10.0.0.2,malicious,46.237.148.227,malicious,user123,DeviceXYZ,auth-success,Successful login for user 'user123' from account 255.150.87.192,high,0.63
+2024-07-20T12:45:31,192.168.0.1,malicious,192.168.10.6,safe,user123,DeviceXYZ,transaction-frequent,Frequent transactions detected for account 94.203.24.101,medium,0.5
+2024-07-20T12:45:31,192.168.1.100,malicious,172.16.0.20,safe,guest,ServerABC,identity-theft-alert,Potential identity theft detected for account 156.129.133.223,low,0.63
+2024-07-20T12:45:31,172.16.1.100,malicious,172.16.1.101,safe,anonymous,DeviceXYZ,transaction-large,Large transaction detected: $572093 for account 91.217.254.249,medium,0.53
+2024-07-20T12:45:31,172.16.1.100,malicious,172.16.1.101,safe,anonymous,DeviceXYZ,account-closure,Account closure requested for 103.115.53.193,low,0.53
+2024-07-20T12:45:31,172.16.1.100,malicious,192.168.10.6,safe,user123,ServerABC,wire-transfer-large,Large wire transfer: $760763 from account 177.201.103.168 to 192.168.10.6,medium,0.63
+2024-07-20T12:45:31,192.168.0.1,malicious,192.168.0.2,safe,admin,ServerABC,auth-failed,Failed login attempt for user 'admin' from account 220.44.250.172,critical,0.43
+2024-07-20T12:45:31,59.138.137.111:7159,malicious,10.0.0.101,safe,user123,Workstation123,phishing-report,Phishing attempt reported by user of account 87.57.94.159,high,0.57
+2024-07-20T12:45:31,10.0.0.2,malicious,10.10.10.20,safe,guest,DeviceXYZ,wire-transfer-large,Large wire transfer: $38905 from account 56.187.161.169 to 10.10.10.20,medium,0.63
+2024-07-20T12:45:31,10.10.10.10,malicious,174.167.189.68,malicious,anonymous,DeviceXYZ,account-closure,Account closure requested for 192.45.182.130,low,0.8
+2024-07-20T12:45:31,10.10.10.10,malicious,172.16.0.20,safe,guest,Workstation123,account-closure,Account closure requested for 89.116.169.98,low,0.53
+2024-07-20T12:45:31,192.168.10.5,malicious,10.0.0.101,safe,guest,DeviceXYZ,money-laundering-suspicion,Potential money laundering activity detected for account 96.30.45.77,medium,0.63
+2024-07-20T12:45:31,154.139.212.135:63027,malicious,192.168.0.2,safe,user123,ServerABC,money-laundering-suspicion,Potential money laundering activity detected for account 164.1.59.108,medium,0.63
+2024-07-20T12:45:31,172.16.0.10,malicious,10.0.0.101,safe,user123,Workstation123,transaction-large,Large transaction detected: $806989 for account 90.248.22.254,high,0.53
+2024-07-20T12:45:31,172.16.1.100,malicious,172.16.1.101,safe,user123,DeviceXYZ,transaction-frequent,Frequent transactions detected for account 80.76.3.155,low,0.5
+2024-07-20T12:45:31,60.75.74.98:32680,malicious,241.237.12.168,malicious,guest,ServerABC,account-closure,Account closure requested for 100.72.254.174,low,0.8
+2024-07-20T12:45:31,172.16.1.100,malicious,192.168.10.6,safe,guest,ServerABC,money-laundering-suspicion,Potential money laundering activity detected for account 150.133.104.92,medium,0.63
+2024-07-20T12:45:31,10.0.0.100,malicious,172.16.0.20,safe,anonymous,DeviceXYZ,card-suspicious-activity,Suspicious activity detected on card linked to account 141.24.136.246,high,0.6
+2024-07-20T12:45:31,10.1.1.1,malicious,172.16.0.20,safe,anonymous,Workstation123,auth-success,Successful login for user 'anonymous' from account 189.56.218.30,medium,0.37
+2024-07-20T12:45:31,178.101.166.213:53791,malicious,161.140.200.16,malicious,guest,ServerABC,card-suspicious-activity,Suspicious activity detected on card linked to account 251.149.115.12,high,0.87
+2024-07-20T12:45:31,192.168.2.5,malicious,192.168.10.6,safe,guest,Workstation123,transaction-large,Large transaction detected: $566013 for account 205.242.61.48,medium,0.53
+2024-07-20T12:45:31,172.16.1.100,malicious,172.16.1.101,safe,anonymous,ServerABC,transaction-frequent,Frequent transactions detected for account 15.32.85.236,critical,0.5
+2024-07-20T12:45:31,224.1.171.17:56251,malicious,172.16.0.20,safe,user123,ServerABC,account-closure,Account closure requested for 165.50.209.231,medium,0.53
+2024-07-20T12:45:31,172.16.1.100,malicious,172.16.1.101,safe,guest,ServerABC,credit-limit-change,Credit limit change requested for account 186.29.155.178,medium,0.5
+2024-07-20T12:45:31,10.10.10.10,malicious,71.15.73.141,malicious,anonymous,DeviceXYZ,credit-limit-change,Credit limit change requested for account 34.240.171.35,medium,0.77
+2024-07-20T12:45:31,192.168.1.100,malicious,10.0.0.101,safe,guest,Workstation123,credit-limit-change,Credit limit change requested for account 144.123.79.155,high,0.5
+2024-07-20T12:45:31,192.168.1.100,malicious,172.16.1.101,safe,guest,Workstation123,card-suspicious-activity,Suspicious activity detected on card linked to account 195.37.225.197,high,0.6
+2024-07-20T12:45:31,172.16.1.100,malicious,172.16.0.20,safe,user123,DeviceXYZ,money-laundering-suspicion,Potential money laundering activity detected for account 185.223.236.17,high,0.63
+2024-07-20T12:45:31,56.207.81.134:8239,malicious,10.1.1.2,safe,user123,Workstation123,payee-added,New payee added to account 39.8.167.38,low,0.47
+2024-07-20T12:45:31,10.0.0.100,malicious,10.0.0.3,safe,anonymous,DeviceXYZ,payee-added,New payee added to account 7.121.128.40,medium,0.47
+2024-07-20T12:45:31,10.10.10.10,malicious,10.10.10.20,safe,admin,Workstation123,money-laundering-suspicion,Potential money laundering activity detected for account 88.128.117.19,medium,0.63
+2024-07-20T12:45:31,192.168.2.5,malicious,192.168.0.2,safe,admin,ServerABC,identity-theft-alert,Potential identity theft detected for account 85.231.69.204,high,0.63
+2024-07-20T12:45:31,172.16.0.10,malicious,10.10.10.20,safe,guest,DeviceXYZ,auth-lockout,User 'guest' locked out after multiple failed login attempts from account 25.226.191.185,low,0.57
+2024-07-20T12:45:31,178.147.234.131:20820,malicious,10.1.1.2,safe,anonymous,DeviceXYZ,customer-info-change,Customer information changed for account 242.21.115.75,medium,0.43
+2024-07-20T12:45:31,192.168.10.5,malicious,192.168.2.6,safe,guest,DeviceXYZ,transaction-frequent,Frequent transactions detected for account 61.41.5.149,high,0.5
+2024-07-20T12:45:31,10.0.0.100,malicious,192.168.0.2,safe,anonymous,DeviceXYZ,card-suspicious-activity,Suspicious activity detected on card linked to account 71.78.35.25,high,0.6
+2024-07-20T12:45:31,10.0.0.100,malicious,172.16.0.20,safe,anonymous,ServerABC,insider-trading-suspicion,Potential insider trading flagged for account 24.44.147.241,medium,0.6
+2024-07-20T12:45:31,172.16.0.10,malicious,10.0.0.3,safe,user123,DeviceXYZ,customer-info-change,Customer information changed for account 75.49.31.92,medium,0.43
+2024-07-20T12:45:31,192.168.10.5,malicious,10.1.1.2,safe,guest,Workstation123,card-suspicious-activity,Suspicious activity detected on card linked to account 212.132.230.54,medium,0.6
+2024-07-20T12:45:31,86.196.238.170:16809,malicious,193.173.133.151,malicious,guest,Workstation123,card-suspicious-activity,Suspicious activity detected on card linked to account 48.112.128.120,medium,0.87
+2024-07-20T12:45:31,172.16.1.100,malicious,192.168.0.3,safe,user123,ServerABC,credit-limit-change,Credit limit change requested for account 46.88.25.45,low,0.5
+2024-07-20T12:45:31,10.0.0.100,malicious,37.30.77.219,malicious,user123,Workstation123,insider-trading-suspicion,Potential insider trading flagged for account 16.231.148.191,critical,0.87
+2024-07-20T12:45:31,172.16.0.10,malicious,192.168.0.3,safe,guest,ServerABC,customer-info-change,Customer information changed for account 97.96.53.74,low,0.43
+2024-07-20T12:45:31,10.1.1.1,malicious,192.168.0.3,safe,admin,DeviceXYZ,auth-lockout,User 'admin' locked out after multiple failed login attempts from account 114.218.74.30,medium,0.57
+2024-07-20T12:45:31,172.16.0.10,malicious,10.1.1.2,safe,user123,Workstation123,wire-transfer-large,Large wire transfer: $948705 from account 155.172.6.5 to 10.1.1.2,medium,0.63
+2024-07-20T12:45:31,211.220.203.84:3654,malicious,10.0.0.101,safe,guest,DeviceXYZ,transaction-large,Large transaction detected: $120236 for account 127.14.130.207,low,0.53
+2024-07-20T12:45:31,192.168.10.5,malicious,172.16.1.101,safe,admin,Workstation123,card-suspicious-activity,Suspicious activity detected on card linked to account 131.180.13.158,critical,0.6
+2024-07-20T12:45:31,192.168.1.100,malicious,10.1.1.2,safe,user123,Workstation123,auth-lockout,User 'user123' locked out after multiple failed login attempts from account 254.205.228.194,low,0.57
+2024-07-20T12:45:31,10.0.0.2,malicious,10.10.10.20,safe,user123,DeviceXYZ,insider-trading-suspicion,Potential insider trading flagged for account 201.62.175.182,high,0.6
+2024-07-20T12:45:31,192.168.0.1,malicious,172.16.0.20,safe,user123,DeviceXYZ,phishing-report,Phishing attempt reported by user of account 57.56.102.60,high,0.57
+2024-07-20T12:45:31,10.10.10.10,malicious,192.168.0.2,safe,anonymous,DeviceXYZ,transaction-frequent,Frequent transactions detected for account 201.94.39.126,medium,0.5
+2024-07-20T12:45:31,10.10.10.10,malicious,10.1.1.2,safe,user123,Workstation123,transaction-frequent,Frequent transactions detected for account 191.24.222.240,critical,0.5
+2024-07-20T12:45:31,10.10.10.10,malicious,192.168.10.6,safe,guest,Workstation123,transaction-frequent,Frequent transactions detected for account 60.143.165.219,critical,0.5
+2024-07-20T12:45:31,122.177.73.114:54753,malicious,172.16.1.101,safe,admin,Workstation123,transaction-frequent,Frequent transactions detected for account 66.104.116.96,medium,0.5
+2024-07-20T12:45:31,192.168.10.5,malicious,201.19.32.178,malicious,anonymous,DeviceXYZ,auth-success,Successful login for user 'anonymous' from account 18.115.125.143,critical,0.63
+2024-07-20T12:45:31,172.16.1.100,malicious,18.249.87.79,malicious,admin,ServerABC,money-laundering-suspicion,Potential money laundering activity detected for account 140.145.189.156,critical,0.9
+2024-07-20T12:45:31,192.168.0.1,malicious,189.1.211.56,malicious,user123,DeviceXYZ,auth-failed,Failed login attempt for user 'user123' from account 184.161.210.244,medium,0.7
+2024-07-20T12:45:31,172.16.1.100,malicious,10.0.0.3,safe,user123,ServerABC,auth-lockout,User 'user123' locked out after multiple failed login attempts from account 214.69.4.157,critical,0.57
+2024-07-20T12:45:31,10.1.1.1,malicious,10.10.10.20,safe,guest,ServerABC,transaction-unusual-location,Transaction from unusual location for account 125.52.78.161,medium,0.6
+2024-07-20T12:45:31,192.168.0.1,malicious,65.31.75.168,malicious,admin,ServerABC,card-suspicious-activity,Suspicious activity detected on card linked to account 127.12.94.240,critical,0.87
+2024-07-20T12:45:31,172.16.0.10,malicious,192.168.0.3,safe,anonymous,ServerABC,transaction-unusual-location,Transaction from unusual location for account 204.200.53.201,low,0.6
+2024-07-20T12:45:31,192.168.1.100,malicious,10.0.0.101,safe,guest,DeviceXYZ,transaction-frequent,Frequent transactions detected for account 87.37.217.4,medium,0.5
+2024-07-20T12:45:31,10.1.1.1,malicious,10.0.0.3,safe,admin,ServerABC,transaction-frequent,Frequent transactions detected for account 238.243.224.183,critical,0.5
+2024-07-20T12:45:31,10.0.0.2,malicious,37.149.73.141,malicious,anonymous,DeviceXYZ,money-laundering-suspicion,Potential money laundering activity detected for account 31.10.189.227,low,0.9
+2024-07-20T12:45:31,109.200.100.222:52253,malicious,10.10.10.20,safe,user123,Workstation123,auth-success,Successful login for user 'user123' from account 167.172.95.12,critical,0.37
+2024-07-20T12:45:31,10.0.0.2,malicious,10.0.0.101,safe,anonymous,Workstation123,auth-lockout,User 'anonymous' locked out after multiple failed login attempts from account 162.29.104.16,low,0.57
+2024-07-20T12:45:31,60.15.63.179:32501,malicious,192.168.0.2,safe,anonymous,DeviceXYZ,transaction-frequent,Frequent transactions detected for account 162.46.181.154,high,0.5
+2024-07-20T12:45:31,192.168.0.1,malicious,10.1.1.2,safe,user123,Workstation123,wire-transfer-large,Large wire transfer: $489758 from account 183.162.200.128 to 10.1.1.2,low,0.63
+2024-07-20T12:45:31,10.0.0.100,malicious,10.0.0.101,safe,guest,Workstation123,payee-added,New payee added to account 171.147.90.174,medium,0.47
+2024-07-20T12:45:31,10.10.10.10,malicious,172.16.0.20,safe,anonymous,ServerABC,payee-added,New payee added to account 26.17.138.232,medium,0.47
+2024-07-20T12:45:31,172.16.0.10,malicious,192.168.2.6,safe,user123,ServerABC,insider-trading-suspicion,Potential insider trading flagged for account 158.69.244.110,medium,0.6
+2024-07-20T12:45:31,167.198.18.72:18133,malicious,192.168.0.3,safe,admin,ServerABC,auth-lockout,User 'admin' locked out after multiple failed login attempts from account 133.84.82.176,medium,0.57
+2024-07-20T12:45:31,192.168.2.5,malicious,172.16.1.101,safe,anonymous,DeviceXYZ,payee-added,New payee added to account 44.108.135.185,medium,0.47
+2024-07-20T12:45:31,133.154.142.225:33573,malicious,10.1.1.2,safe,guest,DeviceXYZ,phishing-report,Phishing attempt reported by user of account 90.1.70.232,medium,0.57
+2024-07-20T12:45:31,172.16.0.10,malicious,172.16.1.101,safe,user123,DeviceXYZ,money-laundering-suspicion,Potential money laundering activity detected for account 116.95.65.69,high,0.63
+2024-07-20T12:45:31,10.0.0.100,malicious,10.0.0.3,safe,guest,ServerABC,payee-added,New payee added to account 112.24.238.208,low,0.47
+2024-07-20T12:45:31,143.184.136.232:50852,malicious,172.16.0.20,safe,admin,DeviceXYZ,phishing-report,Phishing attempt reported by user of account 166.252.119.176,medium,0.57
+2024-07-20T12:45:31,172.16.1.100,malicious,192.168.0.2,safe,anonymous,Workstation123,payee-added,New payee added to account 112.149.146.134,high,0.47
+2024-07-20T12:45:31,192.168.0.1,malicious,227.243.228.247,malicious,anonymous,Workstation123,credit-limit-change,Credit limit change requested for account 50.7.239.40,high,0.77
+2024-07-20T12:45:31,10.1.1.1,malicious,61.47.253.208,malicious,admin,Workstation123,wire-transfer-large,Large wire transfer: $593019 from account 110.74.125.249 to 61.47.253.208,high,0.9
+2024-07-20T12:45:31,161.211.177.30:56088,malicious,172.16.0.20,safe,user123,ServerABC,wire-transfer-large,Large wire transfer: $740388 from account 31.228.59.121 to 172.16.0.20,medium,0.63
+2024-07-20T12:45:31,10.0.0.100,malicious,216.223.5.179,malicious,user123,Workstation123,transaction-frequent,Frequent transactions detected for account 145.86.105.235,high,0.77
+2024-07-20T12:45:31,172.16.1.100,malicious,10.0.0.101,safe,guest,ServerABC,insider-trading-suspicion,Potential insider trading flagged for account 104.43.29.73,high,0.6
+2024-07-20T12:45:31,10.0.0.100,malicious,10.10.10.20,safe,user123,Workstation123,credit-limit-change,Credit limit change requested for account 253.29.189.140,medium,0.5
+2024-07-20T12:45:31,56.96.184.193:42010,malicious,192.168.0.2,safe,anonymous,DeviceXYZ,auth-success,Successful login for user 'anonymous' from account 193.125.244.8,high,0.37
+2024-07-20T12:45:31,10.0.0.100,malicious,10.0.0.3,safe,user123,Workstation123,phishing-report,Phishing attempt reported by user of account 154.120.142.185,medium,0.57
+2024-07-20T12:45:31,10.0.0.2,malicious,192.168.0.3,safe,user123,ServerABC,auth-lockout,User 'user123' locked out after multiple failed login attempts from account 94.14.185.64,medium,0.57
+2024-07-20T12:45:31,172.16.0.10,malicious,172.16.0.20,safe,admin,DeviceXYZ,payee-added,New payee added to account 2.105.158.74,medium,0.47
+2024-07-20T12:45:31,192.168.2.5,malicious,172.16.1.101,safe,guest,Workstation123,auth-success,Successful login for user 'guest' from account 137.193.172.203,high,0.37
+2024-07-20T12:45:31,40.8.219.175:61681,malicious,10.0.0.101,safe,admin,Workstation123,customer-info-change,Customer information changed for account 74.221.140.21,medium,0.43
+2024-07-20T12:45:31,172.16.1.100,malicious,172.16.0.20,safe,guest,ServerABC,auth-failed,Failed login attempt for user 'guest' from account 143.103.6.27,high,0.43
+2024-07-20T12:45:31,10.0.0.2,malicious,192.168.0.2,safe,anonymous,Workstation123,auth-lockout,User 'anonymous' locked out after multiple failed login attempts from account 159.250.42.206,medium,0.57
+2024-07-20T12:45:31,172.16.0.10,malicious,10.1.1.2,safe,user123,ServerABC,transaction-unusual-location,Transaction from unusual location for account 69.35.138.2,high,0.6
+2024-07-20T12:45:31,192.168.10.5,malicious,192.168.2.6,safe,anonymous,ServerABC,auth-lockout,User 'anonymous' locked out after multiple failed login attempts from account 33.111.21.163,high,0.57
+2024-07-20T12:45:31,172.16.1.100,malicious,192.168.10.6,safe,user123,DeviceXYZ,auth-lockout,User 'user123' locked out after multiple failed login attempts from account 14.183.24.32,medium,0.57
+2024-07-20T12:45:31,172.16.1.100,malicious,172.16.0.20,safe,anonymous,Workstation123,identity-theft-alert,Potential identity theft detected for account 7.76.210.60,medium,0.63
+2024-07-20T12:45:31,172.16.0.10,malicious,79.134.155.56,malicious,admin,ServerABC,phishing-report,Phishing attempt reported by user of account 166.163.119.2,critical,0.83
+2024-07-20T12:45:31,172.16.0.10,malicious,202.232.200.216,malicious,admin,ServerABC,auth-failed,Failed login attempt for user 'admin' from account 60.90.147.244,low,0.7
+2024-07-20T12:45:31,220.185.228.19:10442,malicious,10.10.10.20,safe,user123,Workstation123,transaction-unusual-location,Transaction from unusual location for account 249.61.72.229,medium,0.6
+2024-07-20T12:45:31,192.168.0.1,malicious,192.168.10.6,safe,user123,Workstation123,auth-failed,Failed login attempt for user 'user123' from account 219.194.235.42,high,0.43
+2024-07-20T12:45:31,172.16.1.100,malicious,254.57.188.133,malicious,user123,ServerABC,money-laundering-suspicion,Potential money laundering activity detected for account 48.205.248.69,medium,0.9
+2024-07-20T12:45:31,136.215.160.37:43748,malicious,172.16.0.20,safe,user123,DeviceXYZ,transaction-large,Large transaction detected: $756338 for account 13.155.99.147,high,0.53
+2024-07-20T12:45:31,192.168.10.5,malicious,10.0.0.3,safe,anonymous,Workstation123,insider-trading-suspicion,Potential insider trading flagged for account 210.30.148.78,high,0.6
+2024-07-20T12:45:31,172.16.1.100,malicious,10.0.0.3,safe,user123,Workstation123,transaction-large,Large transaction detected: $583117 for account 52.130.144.27,high,0.53
+2024-07-20T12:45:31,10.0.0.100,malicious,192.168.10.6,safe,guest,Workstation123,auth-failed,Failed login attempt for user 'guest' from account 49.216.143.82,medium,0.43
+2024-07-20T12:45:31,10.10.10.10,malicious,10.1.1.2,safe,admin,DeviceXYZ,auth-lockout,User 'admin' locked out after multiple failed login attempts from account 160.230.45.95,low,0.57
+2024-07-20T12:45:31,192.168.2.5,malicious,10.0.0.101,safe,guest,DeviceXYZ,account-closure,Account closure requested for 47.96.22.201,low,0.53
+2024-07-20T12:45:31,192.168.1.100,malicious,10.0.0.3,safe,admin,DeviceXYZ,customer-info-change,Customer information changed for account 3.34.194.13,medium,0.43
+2024-07-20T12:45:31,10.0.0.2,malicious,172.16.0.20,safe,guest,Workstation123,transaction-large,Large transaction detected: $655540 for account 75.140.162.150,critical,0.53
+2024-07-20T12:45:31,10.0.0.100,malicious,192.168.0.2,safe,user123,Workstation123,transaction-large,Large transaction detected: $777973 for account 217.179.69.156,critical,0.53
+2024-07-20T12:45:31,192.168.2.5,malicious,10.10.10.20,safe,admin,Workstation123,auth-lockout,User 'admin' locked out after multiple failed login attempts from account 5.235.62.239,low,0.57
+2024-07-20T12:45:31,192.168.1.100,malicious,172.16.0.20,safe,user123,ServerABC,transaction-frequent,Frequent transactions detected for account 128.213.169.189,low,0.5
+2024-07-20T12:45:31,172.16.1.100,malicious,172.16.1.101,safe,anonymous,ServerABC,credit-limit-change,Credit limit change requested for account 138.46.122.228,medium,0.5
+2024-07-20T12:45:31,10.1.1.1,malicious,10.0.0.3,safe,user123,Workstation123,auth-lockout,User 'user123' locked out after multiple failed login attempts from account 75.194.175.35,high,0.57
+2024-07-20T12:45:31,10.1.1.1,malicious,10.1.1.2,safe,anonymous,ServerABC,wire-transfer-large,Large wire transfer: $963248 from account 192.114.62.83 to 10.1.1.2,medium,0.63
+2024-07-20T12:45:31,10.0.0.2,malicious,192.168.0.3,safe,anonymous,ServerABC,identity-theft-alert,Potential identity theft detected for account 186.231.39.168,low,0.63
+2024-07-20T12:45:31,192.168.1.100,malicious,172.16.1.101,safe,user123,DeviceXYZ,auth-success,Successful login for user 'user123' from account 179.59.54.119,critical,0.37
+2024-07-20T12:45:31,10.1.1.1,malicious,45.51.176.144,malicious,anonymous,ServerABC,insider-trading-suspicion,Potential insider trading flagged for account 222.139.6.1,medium,0.87
+2024-07-20T12:45:31,192.168.0.1,malicious,192.168.10.6,safe,admin,DeviceXYZ,auth-lockout,User 'admin' locked out after multiple failed login attempts from account 179.248.182.228,high,0.57
+2024-07-20T12:45:31,172.16.0.10,malicious,10.1.1.2,safe,anonymous,Workstation123,customer-info-change,Customer information changed for account 246.91.246.190,critical,0.43
+2024-07-20T12:45:31,10.1.1.1,malicious,10.0.0.3,safe,anonymous,Workstation123,transaction-frequent,Frequent transactions detected for account 63.83.94.129,medium,0.5
+2024-07-20T12:45:31,172.16.0.10,malicious,10.1.1.2,safe,guest,DeviceXYZ,transaction-unusual-location,Transaction from unusual location for account 207.189.177.21,low,0.6
+2024-07-20T12:45:31,10.1.1.1,malicious,80.158.47.68,malicious,anonymous,ServerABC,transaction-frequent,Frequent transactions detected for account 97.162.49.223,critical,0.77
+2024-07-20T12:45:31,10.10.10.10,malicious,10.0.0.101,safe,guest,ServerABC,credit-limit-change,Credit limit change requested for account 188.137.11.77,low,0.5
+2024-07-20T12:45:31,192.168.2.5,malicious,192.168.0.2,safe,admin,Workstation123,payee-added,New payee added to account 254.100.164.193,high,0.47
+2024-07-20T12:45:31,10.10.10.10,malicious,10.0.0.3,safe,guest,ServerABC,account-closure,Account closure requested for 25.21.144.110,medium,0.53
+2024-07-20T12:45:31,10.1.1.1,malicious,192.168.10.6,safe,user123,ServerABC,transaction-large,Large transaction detected: $479007 for account 184.95.121.47,low,0.53
+2024-07-20T12:45:31,172.16.1.100,malicious,10.10.10.20,safe,user123,DeviceXYZ,transaction-frequent,Frequent transactions detected for account 22.66.181.241,medium,0.5
+2024-07-20T12:45:31,192.168.10.5,malicious,47.12.194.36,malicious,anonymous,DeviceXYZ,insider-trading-suspicion,Potential insider trading flagged for account 153.147.189.244,low,0.87
+2024-07-20T12:45:31,10.0.0.2,malicious,192.168.0.3,safe,admin,ServerABC,transaction-large,Large transaction detected: $57852 for account 39.32.165.174,medium,0.53
+2024-07-20T12:45:31,118.71.27.215:14084,malicious,10.0.0.101,safe,admin,DeviceXYZ,auth-lockout,User 'admin' locked out after multiple failed login attempts from account 131.154.192.126,low,0.57
+2024-07-20T12:45:31,10.1.1.1,malicious,138.110.58.21,malicious,guest,Workstation123,insider-trading-suspicion,Potential insider trading flagged for account 8.16.105.101,medium,0.87
+2024-07-20T12:45:31,192.168.10.5,malicious,192.168.10.6,safe,guest,ServerABC,customer-info-change,Customer information changed for account 91.1.112.39,high,0.43
+2024-07-20T12:45:31,68.15.110.151:10007,malicious,192.168.0.2,safe,guest,DeviceXYZ,auth-failed,Failed login attempt for user 'guest' from account 5.140.80.199,medium,0.43
+2024-07-20T12:45:31,172.16.1.100,malicious,192.168.2.6,safe,user123,Workstation123,auth-success,Successful login for user 'user123' from account 82.220.76.39,high,0.37
+2024-07-20T12:45:31,192.168.10.5,malicious,94.207.122.131,malicious,user123,DeviceXYZ,identity-theft-alert,Potential identity theft detected for account 67.130.106.221,low,0.9
+2024-07-20T12:45:31,192.168.0.1,malicious,59.91.158.205,malicious,anonymous,ServerABC,card-suspicious-activity,Suspicious activity detected on card linked to account 20.27.72.185,medium,0.87
+2024-07-20T12:45:31,10.0.0.2,malicious,10.1.1.2,safe,guest,ServerABC,identity-theft-alert,Potential identity theft detected for account 21.102.208.221,low,0.63
+2024-07-20T12:45:31,110.37.139.61:2254,malicious,192.168.0.2,safe,anonymous,ServerABC,money-laundering-suspicion,Potential money laundering activity detected for account 124.63.92.243,critical,0.63
+2024-07-20T12:45:31,172.16.1.100,malicious,10.0.0.3,safe,anonymous,Workstation123,money-laundering-suspicion,Potential money laundering activity detected for account 68.109.234.83,critical,0.63
+2024-07-20T12:45:31,53.112.47.46:51741,malicious,192.168.0.3,safe,guest,Workstation123,auth-lockout,User 'guest' locked out after multiple failed login attempts from account 21.184.80.127,low,0.57
+2024-07-20T12:45:31,209.226.79.42:9618,malicious,172.16.1.101,safe,anonymous,DeviceXYZ,money-laundering-suspicion,Potential money laundering activity detected for account 183.140.81.198,high,0.63
+2024-07-20T12:45:31,10.0.0.100,malicious,192.168.0.3,safe,user123,DeviceXYZ,transaction-unusual-location,Transaction from unusual location for account 197.248.220.72,medium,0.6
+2024-07-20T12:45:31,192.168.0.1,malicious,10.1.1.2,safe,user123,DeviceXYZ,identity-theft-alert,Potential identity theft detected for account 230.187.215.74,critical,0.63
+2024-07-20T12:45:31,10.10.10.10,malicious,10.0.0.3,safe,admin,Workstation123,auth-lockout,User 'admin' locked out after multiple failed login attempts from account 9.132.128.48,critical,0.57
+2024-07-20T12:45:31,192.168.0.1,malicious,25.230.181.5,malicious,admin,DeviceXYZ,auth-failed,Failed login attempt for user 'admin' from account 110.133.52.212,medium,0.7
+2024-07-20T12:45:31,192.168.2.5,malicious,172.16.0.20,safe,user123,Workstation123,wire-transfer-large,Large wire transfer: $107592 from account 64.176.116.205 to 172.16.0.20,low,0.63
+2024-07-20T12:45:31,122.196.154.239:32114,malicious,172.16.1.101,safe,guest,Workstation123,wire-transfer-large,Large wire transfer: $647752 from account 223.243.205.161 to 172.16.1.101,high,0.63
+2024-07-20T12:45:31,192.168.2.5,malicious,172.16.1.101,safe,anonymous,ServerABC,wire-transfer-large,Large wire transfer: $880400 from account 80.87.214.161 to 172.16.1.101,low,0.63
+2024-07-20T12:45:31,10.1.1.1,malicious,64.191.251.150,malicious,user123,Workstation123,customer-info-change,Customer information changed for account 18.33.175.251,low,0.7
+2024-07-20T12:45:31,172.16.1.100,malicious,61.211.108.52,malicious,guest,ServerABC,transaction-large,Large transaction detected: $944564 for account 151.98.126.145,low,0.8
+2024-07-20T12:45:31,54.158.92.221:63023,malicious,172.16.0.20,safe,anonymous,Workstation123,identity-theft-alert,Potential identity theft detected for account 170.161.218.180,medium,0.63
+2024-07-20T12:45:31,10.10.10.10,malicious,10.1.1.2,safe,guest,Workstation123,customer-info-change,Customer information changed for account 188.11.156.103,medium,0.43
+2024-07-20T12:45:31,10.1.1.1,malicious,208.120.54.134,malicious,user123,DeviceXYZ,payee-added,New payee added to account 182.38.171.120,medium,0.73
+2024-07-20T12:45:31,228.137.52.80:37805,malicious,10.10.10.20,safe,anonymous,ServerABC,account-closure,Account closure requested for 16.169.185.206,medium,0.53
+2024-07-20T12:45:31,237.36.91.236:49278,malicious,10.10.10.20,safe,anonymous,ServerABC,insider-trading-suspicion,Potential insider trading flagged for account 7.183.12.62,low,0.6
+2024-07-20T12:45:31,192.168.2.5,malicious,248.68.193.42,malicious,anonymous,DeviceXYZ,account-closure,Account closure requested for 14.228.222.195,medium,0.8
+2024-07-20T12:45:31,23.98.40.9:15018,malicious,75.33.211.13,malicious,anonymous,Workstation123,wire-transfer-large,Large wire transfer: $565656 from account 159.207.64.129 to 75.33.211.13,medium,0.9
+2024-07-20T12:45:31,10.0.0.2,malicious,10.10.10.20,safe,user123,Workstation123,account-closure,Account closure requested for 1.131.190.187,medium,0.53
+2024-07-20T12:45:31,192.168.1.100,malicious,192.168.2.6,safe,anonymous,DeviceXYZ,payee-added,New payee added to account 33.104.95.71,low,0.47
+2024-07-20T12:45:31,192.168.10.5,malicious,167.154.231.196,malicious,guest,Workstation123,money-laundering-suspicion,Potential money laundering activity detected for account 171.210.231.11,critical,0.9
+2024-07-20T12:45:31,214.67.154.202:53487,malicious,197.183.74.212,malicious,admin,Workstation123,auth-failed,Failed login attempt for user 'admin' from account 247.143.81.13,critical,0.7
+2024-07-20T12:45:31,10.10.10.10,malicious,192.168.0.2,safe,anonymous,Workstation123,phishing-report,Phishing attempt reported by user of account 150.178.12.231,high,0.57
+2024-07-20T12:45:31,178.182.225.119:35418,malicious,10.0.0.101,safe,guest,ServerABC,phishing-report,Phishing attempt reported by user of account 200.74.64.190,high,0.57
+2024-07-20T12:45:31,192.168.10.5,malicious,10.1.1.2,safe,user123,Workstation123,card-suspicious-activity,Suspicious activity detected on card linked to account 250.82.243.19,high,0.6
+2024-07-20T12:45:31,192.168.2.5,malicious,172.16.0.20,safe,guest,DeviceXYZ,auth-lockout,User 'guest' locked out after multiple failed login attempts from account 123.21.12.221,medium,0.57
+2024-07-20T12:45:31,10.0.0.2,malicious,192.168.10.6,safe,admin,DeviceXYZ,money-laundering-suspicion,Potential money laundering activity detected for account 28.96.87.163,medium,0.63
+2024-07-20T12:45:31,10.1.1.1,malicious,172.16.1.101,safe,anonymous,DeviceXYZ,phishing-report,Phishing attempt reported by user of account 61.132.167.141,medium,0.57
+2024-07-20T12:45:31,10.0.0.100,malicious,10.1.1.2,safe,guest,Workstation123,auth-success,Successful login for user 'guest' from account 4.184.22.109,medium,0.37
+2024-07-20T12:45:31,192.168.1.100,malicious,192.168.0.2,safe,guest,ServerABC,phishing-report,Phishing attempt reported by user of account 89.169.112.11,high,0.57
+2024-07-20T12:45:31,192.168.1.100,malicious,192.168.0.2,safe,anonymous,DeviceXYZ,insider-trading-suspicion,Potential insider trading flagged for account 238.145.50.90,medium,0.6
+2024-07-20T12:45:31,192.168.10.5,malicious,45.79.137.236,malicious,guest,DeviceXYZ,phishing-report,Phishing attempt reported by user of account 159.8.23.32,medium,0.83
+2024-07-20T12:45:31,84.130.230.2:37538,malicious,10.0.0.3,safe,admin,Workstation123,auth-failed,Failed login attempt for user 'admin' from account 196.143.60.171,medium,0.43
+2024-07-20T12:45:31,192.168.1.100,malicious,10.0.0.101,safe,user123,Workstation123,transaction-large,Large transaction detected: $115518 for account 172.243.65.249,medium,0.53
+2024-07-20T12:45:31,192.168.10.5,malicious,192.168.0.3,safe,admin,ServerABC,credit-limit-change,Credit limit change requested for account 86.237.153.239,critical,0.5
+2024-07-20T12:45:31,192.168.2.5,malicious,10.0.0.101,safe,user123,ServerABC,auth-failed,Failed login attempt for user 'user123' from account 7.252.179.169,low,0.43
+2024-07-20T12:45:31,26.110.211.140:42195,malicious,10.1.1.2,safe,user123,DeviceXYZ,auth-success,Successful login for user 'user123' from account 237.110.155.172,medium,0.37
+2024-07-20T12:45:31,192.168.0.1,malicious,10.0.0.101,safe,anonymous,Workstation123,auth-lockout,User 'anonymous' locked out after multiple failed login attempts from account 165.116.202.99,medium,0.57
+2024-07-20T12:45:31,192.168.1.100,malicious,10.1.1.2,safe,guest,Workstation123,money-laundering-suspicion,Potential money laundering activity detected for account 229.21.172.236,high,0.63
+2024-07-20T12:45:31,64.5.9.232:16459,malicious,96.198.156.141,malicious,admin,Workstation123,customer-info-change,Customer information changed for account 90.190.75.42,medium,0.7
+2024-07-20T12:45:31,192.168.10.5,malicious,172.16.0.20,safe,user123,DeviceXYZ,payee-added,New payee added to account 203.250.115.176,low,0.47
+2024-07-20T12:45:31,192.168.2.5,malicious,198.97.215.228,malicious,admin,DeviceXYZ,auth-success,Successful login for user 'admin' from account 244.166.48.113,medium,0.63
+2024-07-20T12:45:31,10.1.1.1,malicious,10.1.1.2,safe,admin,Workstation123,transaction-unusual-location,Transaction from unusual location for account 11.64.127.24,medium,0.6
+2024-07-20T12:45:31,10.0.0.2,malicious,192.168.0.2,safe,anonymous,ServerABC,card-suspicious-activity,Suspicious activity detected on card linked to account 60.134.76.140,medium,0.6
+2024-07-20T12:45:31,192.168.0.1,malicious,247.255.21.142,malicious,user123,ServerABC,money-laundering-suspicion,Potential money laundering activity detected for account 63.252.40.197,medium,0.9
+2024-07-20T12:45:31,10.1.1.1,malicious,14.46.55.147,malicious,admin,DeviceXYZ,account-closure,Account closure requested for 11.178.67.162,high,0.8
+2024-07-20T12:45:31,172.16.1.100,malicious,192.168.0.2,safe,anonymous,Workstation123,transaction-unusual-location,Transaction from unusual location for account 57.125.4.74,high,0.6
+2024-07-20T12:45:31,10.1.1.1,malicious,172.16.1.101,safe,guest,Workstation123,money-laundering-suspicion,Potential money laundering activity detected for account 78.177.59.134,medium,0.63
+2024-07-20T12:45:31,10.58.146.207:35293,malicious,62.21.16.229,malicious,admin,Workstation123,transaction-large,Large transaction detected: $284335 for account 104.42.212.161,medium,0.8
+2024-07-20T12:45:31,70.99.157.96:17526,malicious,172.16.0.20,safe,anonymous,Workstation123,credit-limit-change,Credit limit change requested for account 123.195.186.206,medium,0.5
+2024-07-20T12:45:31,10.0.0.100,malicious,172.16.0.20,safe,anonymous,ServerABC,insider-trading-suspicion,Potential insider trading flagged for account 130.127.129.117,low,0.6
+2024-07-20T12:45:31,10.0.0.100,malicious,192.168.0.3,safe,guest,DeviceXYZ,transaction-frequent,Frequent transactions detected for account 82.192.229.88,high,0.5
+2024-07-20T12:45:31,192.168.2.5,malicious,10.0.0.3,safe,user123,DeviceXYZ,transaction-large,Large transaction detected: $615661 for account 247.100.239.69,high,0.53
+2024-07-20T12:45:31,10.0.0.100,malicious,10.0.0.101,safe,user123,DeviceXYZ,transaction-frequent,Frequent transactions detected for account 26.4.186.200,critical,0.5
+2024-07-20T12:45:31,172.16.1.100,malicious,172.16.0.20,safe,admin,ServerABC,credit-limit-change,Credit limit change requested for account 76.241.177.11,medium,0.5
+2024-07-20T12:45:31,172.16.0.10,malicious,210.184.3.104,malicious,user123,ServerABC,identity-theft-alert,Potential identity theft detected for account 102.182.28.44,high,0.9
+2024-07-20T12:45:31,10.1.1.1,malicious,192.168.0.2,safe,user123,DeviceXYZ,wire-transfer-large,Large wire transfer: $823724 from account 90.89.250.227 to 192.168.0.2,medium,0.63
+2024-07-20T12:45:31,10.1.1.1,malicious,10.0.0.101,safe,user123,Workstation123,auth-success,Successful login for user 'user123' from account 63.158.132.242,high,0.37
+2024-07-20T12:45:31,10.10.10.10,malicious,10.10.10.20,safe,guest,DeviceXYZ,transaction-unusual-location,Transaction from unusual location for account 227.24.54.93,low,0.6
+2024-07-20T12:45:31,192.168.1.100,malicious,10.1.1.2,safe,admin,DeviceXYZ,card-suspicious-activity,Suspicious activity detected on card linked to account 10.134.112.254,low,0.6
+2024-07-20T12:45:31,192.168.2.5,malicious,27.216.191.230,malicious,admin,ServerABC,auth-success,Successful login for user 'admin' from account 217.185.137.211,low,0.63
+2024-07-20T12:45:31,192.168.0.1,malicious,172.16.1.101,safe,guest,DeviceXYZ,phishing-report,Phishing attempt reported by user of account 117.73.119.86,medium,0.57
+2024-07-20T12:45:31,10.0.0.2,malicious,81.116.223.153,malicious,guest,Workstation123,credit-limit-change,Credit limit change requested for account 1.129.62.99,low,0.77
+2024-07-20T12:45:31,192.168.0.1,malicious,166.200.54.227,malicious,anonymous,DeviceXYZ,auth-failed,Failed login attempt for user 'anonymous' from account 158.55.164.192,medium,0.7
+2024-07-20T12:45:31,192.168.1.100,malicious,172.16.0.20,safe,user123,DeviceXYZ,wire-transfer-large,Large wire transfer: $795086 from account 189.248.182.21 to 172.16.0.20,medium,0.63
+2024-07-20T12:45:31,10.0.0.2,malicious,192.168.10.6,safe,anonymous,ServerABC,card-suspicious-activity,Suspicious activity detected on card linked to account 130.229.136.83,high,0.6
+2024-07-20T12:45:31,10.0.0.100,malicious,10.0.0.101,safe,admin,ServerABC,auth-lockout,User 'admin' locked out after multiple failed login attempts from account 66.90.214.174,low,0.57
+2024-07-20T12:45:31,192.168.10.5,malicious,46.7.92.145,malicious,admin,Workstation123,wire-transfer-large,Large wire transfer: $808263 from account 92.243.228.60 to 46.7.92.145,high,0.9
+2024-07-20T12:45:31,172.16.0.10,malicious,172.16.0.20,safe,anonymous,Workstation123,credit-limit-change,Credit limit change requested for account 20.20.55.115,low,0.5
+2024-07-20T12:45:31,192.168.1.100,malicious,172.16.0.20,safe,admin,ServerABC,transaction-unusual-location,Transaction from unusual location for account 41.169.161.225,high,0.6
+2024-07-20T12:45:31,192.168.1.100,malicious,10.1.1.2,safe,user123,Workstation123,identity-theft-alert,Potential identity theft detected for account 231.145.116.6,low,0.63
+2024-07-20T12:45:31,192.168.1.100,malicious,10.0.0.101,safe,user123,ServerABC,card-suspicious-activity,Suspicious activity detected on card linked to account 120.52.127.107,low,0.6
+2024-07-20T12:45:31,192.168.0.1,malicious,10.0.0.3,safe,anonymous,ServerABC,account-closure,Account closure requested for 233.76.246.236,low,0.53
+2024-07-20T12:45:31,10.1.1.1,malicious,172.16.1.101,safe,user123,ServerABC,payee-added,New payee added to account 112.208.230.124,low,0.47
+2024-07-20T12:45:31,10.1.1.1,malicious,192.168.0.2,safe,user123,ServerABC,phishing-report,Phishing attempt reported by user of account 165.169.123.201,low,0.57
+2024-07-20T12:45:31,10.1.1.1,malicious,192.168.2.6,safe,guest,Workstation123,phishing-report,Phishing attempt reported by user of account 203.66.149.193,high,0.57
+2024-07-20T12:45:31,75.74.127.217:38098,malicious,10.10.10.20,safe,guest,Workstation123,transaction-unusual-location,Transaction from unusual location for account 99.197.145.170,high,0.6
+2024-07-20T12:45:31,114.227.125.182:28840,malicious,185.237.24.113,malicious,user123,ServerABC,wire-transfer-large,Large wire transfer: $560135 from account 114.208.120.123 to 185.237.24.113,high,0.9
+2024-07-20T12:45:31,158.166.112.160:38635,malicious,192.168.0.2,safe,anonymous,DeviceXYZ,transaction-unusual-location,Transaction from unusual location for account 41.237.92.73,high,0.6
+2024-07-20T12:45:31,192.168.10.5,malicious,157.99.15.29,malicious,guest,ServerABC,payee-added,New payee added to account 13.18.8.90,medium,0.73
+2024-07-20T12:45:31,192.168.2.5,malicious,192.168.0.3,safe,admin,ServerABC,insider-trading-suspicion,Potential insider trading flagged for account 1.36.254.57,critical,0.6
+2024-07-20T12:45:31,172.167.169.250:46142,malicious,192.168.0.2,safe,admin,Workstation123,identity-theft-alert,Potential identity theft detected for account 199.238.12.154,medium,0.63
+2024-07-20T12:45:31,223.170.155.16:36754,malicious,192.168.2.6,safe,guest,DeviceXYZ,auth-failed,Failed login attempt for user 'guest' from account 207.47.128.175,medium,0.43
+2024-07-20T12:45:31,10.1.1.1,malicious,10.0.0.101,safe,anonymous,ServerABC,money-laundering-suspicion,Potential money laundering activity detected for account 230.142.239.211,low,0.63
+2024-07-20T12:45:31,192.168.0.1,malicious,192.168.0.3,safe,admin,Workstation123,money-laundering-suspicion,Potential money laundering activity detected for account 31.232.152.151,medium,0.63
+2024-07-20T12:45:31,10.0.0.100,malicious,192.168.0.3,safe,guest,Workstation123,customer-info-change,Customer information changed for account 43.81.223.39,medium,0.43
+2024-07-20T12:45:31,192.168.10.5,malicious,192.168.10.6,safe,anonymous,Workstation123,transaction-unusual-location,Transaction from unusual location for account 83.169.184.7,low,0.6
+2024-07-20T12:45:31,192.168.10.5,malicious,10.1.1.2,safe,anonymous,ServerABC,auth-failed,Failed login attempt for user 'anonymous' from account 127.54.29.162,medium,0.43
+2024-07-20T12:45:31,10.10.10.10,malicious,192.168.0.3,safe,guest,DeviceXYZ,account-closure,Account closure requested for 77.223.171.152,low,0.53
+2024-07-20T12:45:31,10.1.1.1,malicious,10.0.0.3,safe,user123,DeviceXYZ,payee-added,New payee added to account 67.200.52.204,high,0.47
+2024-07-20T12:45:31,10.0.0.100,malicious,10.1.1.2,safe,guest,Workstation123,insider-trading-suspicion,Potential insider trading flagged for account 202.100.8.117,high,0.6
+2024-07-20T12:45:31,211.183.115.134:59757,malicious,192.168.0.2,safe,user123,Workstation123,credit-limit-change,Credit limit change requested for account 63.187.101.131,medium,0.5
+2024-07-20T12:45:31,10.1.1.1,malicious,10.0.0.101,safe,guest,ServerABC,payee-added,New payee added to account 140.19.123.114,high,0.47
+2024-07-20T12:45:31,192.168.1.100,malicious,172.16.1.101,safe,guest,ServerABC,auth-lockout,User 'guest' locked out after multiple failed login attempts from account 16.180.71.90,low,0.57
+2024-07-20T12:45:31,192.168.0.1,malicious,10.0.0.101,safe,anonymous,DeviceXYZ,identity-theft-alert,Potential identity theft detected for account 121.109.224.182,medium,0.63
+2024-07-20T12:45:31,10.1.1.1,malicious,104.178.33.195,malicious,anonymous,Workstation123,customer-info-change,Customer information changed for account 119.63.74.225,medium,0.7
+2024-07-20T12:45:31,10.0.0.100,malicious,119.180.39.34,malicious,admin,ServerABC,insider-trading-suspicion,Potential insider trading flagged for account 246.235.146.209,low,0.87
+2024-07-20T12:45:31,192.168.2.5,malicious,172.16.1.101,safe,admin,ServerABC,auth-success,Successful login for user 'admin' from account 161.255.166.174,low,0.37
+2024-07-20T12:45:31,11.223.36.141:33850,malicious,192.168.0.3,safe,anonymous,DeviceXYZ,phishing-report,Phishing attempt reported by user of account 104.91.145.154,critical,0.57
+2024-07-20T12:45:31,192.168.1.100,malicious,192.168.2.6,safe,guest,Workstation123,transaction-frequent,Frequent transactions detected for account 31.172.151.183,low,0.5
+2024-07-20T12:45:31,192.168.2.5,malicious,192.168.10.6,safe,user123,DeviceXYZ,identity-theft-alert,Potential identity theft detected for account 237.143.117.20,medium,0.63
+2024-07-20T12:45:31,94.146.150.49:53401,malicious,10.1.1.2,safe,guest,ServerABC,transaction-unusual-location,Transaction from unusual location for account 184.103.191.36,medium,0.6
+2024-07-20T12:45:31,10.10.10.10,malicious,80.107.224.214,malicious,user123,ServerABC,customer-info-change,Customer information changed for account 137.127.99.99,low,0.7
+2024-07-20T12:45:31,192.168.2.5,malicious,172.16.0.20,safe,anonymous,Workstation123,money-laundering-suspicion,Potential money laundering activity detected for account 171.217.223.203,critical,0.63
+2024-07-20T12:45:31,46.110.196.11:18126,malicious,52.153.163.136,malicious,guest,ServerABC,account-closure,Account closure requested for 167.52.75.187,medium,0.8
+2024-07-20T12:45:31,10.0.0.2,malicious,10.1.1.2,safe,admin,DeviceXYZ,auth-failed,Failed login attempt for user 'admin' from account 68.204.58.60,low,0.43
+2024-07-20T12:45:31,10.0.0.2,malicious,172.16.0.20,safe,guest,ServerABC,payee-added,New payee added to account 171.198.142.132,high,0.47
+2024-07-20T12:45:31,172.16.0.10,malicious,10.1.1.2,safe,anonymous,DeviceXYZ,transaction-large,Large transaction detected: $92459 for account 24.76.172.114,medium,0.53
+2024-07-20T12:45:31,10.10.10.10,malicious,35.190.202.177,malicious,anonymous,Workstation123,auth-failed,Failed login attempt for user 'anonymous' from account 138.90.35.161,high,0.7
+2024-07-20T12:45:31,10.0.0.100,malicious,229.136.231.110,malicious,admin,DeviceXYZ,wire-transfer-large,Large wire transfer: $429704 from account 140.118.68.73 to 229.136.231.110,high,0.9
+2024-07-20T12:45:31,10.10.10.10,malicious,224.154.49.194,malicious,anonymous,Workstation123,transaction-large,Large transaction detected: $984327 for account 224.23.96.85,medium,0.8
+2024-07-20T12:45:31,192.168.10.5,malicious,192.168.0.2,safe,admin,DeviceXYZ,account-closure,Account closure requested for 176.239.120.73,medium,0.53
+2024-07-20T12:45:31,192.168.10.5,malicious,192.168.10.6,safe,anonymous,DeviceXYZ,auth-success,Successful login for user 'anonymous' from account 144.191.139.51,low,0.37
+2024-07-20T12:45:31,10.1.1.1,malicious,236.10.54.72,malicious,anonymous,DeviceXYZ,credit-limit-change,Credit limit change requested for account 88.241.214.235,medium,0.77
+2024-07-20T12:45:31,79.199.148.203:1066,malicious,172.16.0.20,safe,guest,DeviceXYZ,transaction-frequent,Frequent transactions detected for account 23.205.59.72,medium,0.5
+2024-07-20T12:45:31,172.16.1.100,malicious,172.16.0.20,safe,user123,ServerABC,account-closure,Account closure requested for 247.40.139.170,medium,0.53
+2024-07-20T12:45:31,172.16.1.100,malicious,172.16.1.101,safe,user123,Workstation123,transaction-unusual-location,Transaction from unusual location for account 82.130.60.207,medium,0.6
+2024-07-20T12:45:31,172.16.0.10,malicious,192.168.0.3,safe,anonymous,DeviceXYZ,insider-trading-suspicion,Potential insider trading flagged for account 226.169.86.81,high,0.6
+2024-07-20T12:45:31,172.16.1.100,malicious,192.168.2.6,safe,anonymous,DeviceXYZ,transaction-frequent,Frequent transactions detected for account 111.122.111.221,low,0.5
+2024-07-20T12:45:31,172.16.1.100,malicious,197.202.101.246,malicious,anonymous,Workstation123,transaction-large,Large transaction detected: $855010 for account 191.6.250.80,medium,0.8
+2024-07-20T12:45:31,161.235.52.55:3425,malicious,192.168.2.6,safe,anonymous,Workstation123,auth-success,Successful login for user 'anonymous' from account 243.40.95.74,medium,0.37
+2024-07-20T12:45:31,192.168.1.100,malicious,172.16.1.101,safe,anonymous,DeviceXYZ,payee-added,New payee added to account 21.129.138.143,medium,0.47
+2024-07-20T12:45:31,99.76.150.237:10638,malicious,192.168.0.2,safe,guest,DeviceXYZ,transaction-frequent,Frequent transactions detected for account 129.131.44.179,critical,0.5
+2024-07-20T12:45:31,192.168.10.5,malicious,172.16.0.20,safe,user123,Workstation123,money-laundering-suspicion,Potential money laundering activity detected for account 146.236.202.248,critical,0.63
+2024-07-20T12:45:31,192.168.0.1,malicious,92.43.155.136,malicious,admin,DeviceXYZ,identity-theft-alert,Potential identity theft detected for account 92.125.135.97,critical,0.9
+2024-07-20T12:45:31,172.16.0.10,malicious,10.0.0.3,safe,anonymous,Workstation123,auth-failed,Failed login attempt for user 'anonymous' from account 217.162.229.216,low,0.43
+2024-07-20T12:45:31,42.221.101.102:17119,malicious,156.159.77.204,malicious,user123,Workstation123,auth-failed,Failed login attempt for user 'user123' from account 19.24.180.244,medium,0.7
+2024-07-20T12:45:31,172.16.1.100,malicious,172.16.1.101,safe,guest,DeviceXYZ,transaction-frequent,Frequent transactions detected for account 185.234.227.209,low,0.5
+2024-07-20T12:45:31,10.0.0.2,malicious,192.168.10.6,safe,anonymous,ServerABC,customer-info-change,Customer information changed for account 35.14.22.183,critical,0.43
+2024-07-20T12:45:31,10.1.1.1,malicious,10.0.0.3,safe,guest,ServerABC,insider-trading-suspicion,Potential insider trading flagged for account 124.249.246.89,low,0.6
+2024-07-20T12:45:31,172.16.0.10,malicious,192.168.0.3,safe,guest,ServerABC,wire-transfer-large,Large wire transfer: $665035 from account 163.120.106.176 to 192.168.0.3,high,0.63
+2024-07-20T12:45:31,10.1.1.1,malicious,139.70.77.153,malicious,guest,DeviceXYZ,insider-trading-suspicion,Potential insider trading flagged for account 102.43.102.74,high,0.87
+2024-07-20T12:45:31,10.0.0.100,malicious,173.110.134.238,malicious,anonymous,DeviceXYZ,credit-limit-change,Credit limit change requested for account 237.159.201.216,low,0.77
+2024-07-20T12:45:31,245.154.187.7:13449,malicious,168.46.212.52,malicious,anonymous,ServerABC,transaction-unusual-location,Transaction from unusual location for account 23.145.72.93,high,0.87
+2024-07-20T12:45:31,172.16.1.100,malicious,10.1.1.2,safe,user123,Workstation123,transaction-unusual-location,Transaction from unusual location for account 31.60.212.31,low,0.6
+2024-07-20T12:45:31,192.168.2.5,malicious,192.168.0.3,safe,admin,Workstation123,card-suspicious-activity,Suspicious activity detected on card linked to account 244.71.125.6,low,0.6
+2024-07-20T12:45:31,172.16.1.100,malicious,192.168.0.2,safe,user123,DeviceXYZ,transaction-large,Large transaction detected: $672376 for account 107.253.187.56,medium,0.53
+2024-07-20T12:45:31,3.148.120.87:48092,malicious,192.168.10.6,safe,user123,ServerABC,identity-theft-alert,Potential identity theft detected for account 208.71.222.125,medium,0.63
+2024-07-20T12:45:31,192.168.0.1,malicious,10.1.1.2,safe,admin,Workstation123,insider-trading-suspicion,Potential insider trading flagged for account 244.240.15.196,low,0.6
+2024-07-20T12:45:31,192.168.2.5,malicious,10.0.0.101,safe,user123,ServerABC,transaction-unusual-location,Transaction from unusual location for account 79.228.157.155,medium,0.6
+2024-07-20T12:45:31,156.152.214.65:54459,malicious,149.74.198.251,malicious,guest,Workstation123,card-suspicious-activity,Suspicious activity detected on card linked to account 195.64.113.247,high,0.87
+2024-07-20T12:45:31,192.168.2.5,malicious,10.1.1.2,safe,admin,DeviceXYZ,wire-transfer-large,Large wire transfer: $723702 from account 68.199.58.84 to 10.1.1.2,medium,0.63
+2024-07-20T12:45:31,234.161.66.149:21396,malicious,192.168.2.6,safe,anonymous,Workstation123,card-suspicious-activity,Suspicious activity detected on card linked to account 152.32.141.196,medium,0.6
+2024-07-20T12:45:31,192.168.0.1,malicious,10.0.0.3,safe,user123,Workstation123,money-laundering-suspicion,Potential money laundering activity detected for account 93.33.204.41,low,0.63
+2024-07-20T12:45:31,172.16.0.10,malicious,192.168.0.3,safe,guest,Workstation123,customer-info-change,Customer information changed for account 18.133.193.168,low,0.43
+2024-07-20T12:45:31,129.221.90.207:21721,malicious,192.168.0.2,safe,user123,Workstation123,auth-lockout,User 'user123' locked out after multiple failed login attempts from account 214.108.166.111,high,0.57
+2024-07-20T12:45:31,172.16.0.10,malicious,172.16.0.20,safe,admin,DeviceXYZ,account-closure,Account closure requested for 252.185.78.114,critical,0.53
+2024-07-20T12:45:31,192.168.1.100,malicious,125.78.243.42,malicious,admin,DeviceXYZ,insider-trading-suspicion,Potential insider trading flagged for account 86.244.85.154,low,0.87
+2024-07-20T12:45:31,192.168.0.1,malicious,192.168.2.6,safe,admin,ServerABC,credit-limit-change,Credit limit change requested for account 123.42.201.167,medium,0.5
+2024-07-20T12:45:31,10.1.1.1,malicious,172.16.1.101,safe,admin,DeviceXYZ,customer-info-change,Customer information changed for account 22.20.195.188,medium,0.43
+2024-07-20T12:45:31,192.168.2.5,malicious,10.0.0.101,safe,user123,ServerABC,card-suspicious-activity,Suspicious activity detected on card linked to account 115.193.134.133,low,0.6
+2024-07-20T12:45:31,10.1.1.1,malicious,192.168.0.2,safe,user123,Workstation123,auth-success,Successful login for user 'user123' from account 139.158.141.70,high,0.37
+2024-07-20T12:45:31,192.168.0.1,malicious,192.168.2.6,safe,user123,Workstation123,payee-added,New payee added to account 70.190.246.125,critical,0.47
+2024-07-20T12:45:31,192.168.2.5,malicious,172.16.0.20,safe,guest,Workstation123,auth-lockout,User 'guest' locked out after multiple failed login attempts from account 102.38.31.52,low,0.57
+2024-07-20T12:45:31,172.16.0.10,malicious,255.249.165.191,malicious,guest,Workstation123,wire-transfer-large,Large wire transfer: $796179 from account 43.51.82.135 to 255.249.165.191,high,0.9
+2024-07-20T12:45:31,192.168.10.5,malicious,164.235.199.101,malicious,anonymous,Workstation123,card-suspicious-activity,Suspicious activity detected on card linked to account 159.254.215.62,medium,0.87
+2024-07-20T12:45:31,10.10.10.10,malicious,192.168.0.2,safe,anonymous,ServerABC,customer-info-change,Customer information changed for account 236.48.235.179,medium,0.43
+2024-07-20T12:45:31,10.10.10.10,malicious,67.36.23.215,malicious,anonymous,DeviceXYZ,auth-failed,Failed login attempt for user 'anonymous' from account 122.82.5.31,low,0.7
+2024-07-20T12:45:31,185.86.58.82:53996,malicious,10.0.0.3,safe,anonymous,Workstation123,auth-success,Successful login for user 'anonymous' from account 253.213.78.141,high,0.37
+2024-07-20T12:45:31,172.16.0.10,malicious,172.16.0.20,safe,user123,DeviceXYZ,transaction-unusual-location,Transaction from unusual location for account 135.82.32.82,low,0.6
+2024-07-20T12:45:31,192.168.10.5,malicious,10.10.10.20,safe,admin,ServerABC,customer-info-change,Customer information changed for account 51.182.117.74,medium,0.43
+2024-07-20T12:45:31,192.168.2.5,malicious,172.16.1.101,safe,user123,ServerABC,phishing-report,Phishing attempt reported by user of account 227.86.112.25,low,0.57
+2024-07-20T12:45:31,172.16.0.10,malicious,172.16.0.20,safe,guest,Workstation123,money-laundering-suspicion,Potential money laundering activity detected for account 241.255.94.163,critical,0.63
+2024-07-20T12:45:31,172.16.1.100,malicious,95.118.34.211,malicious,anonymous,Workstation123,account-closure,Account closure requested for 81.211.132.30,medium,0.8
+2024-07-20T12:45:31,10.1.1.1,malicious,192.168.10.6,safe,guest,DeviceXYZ,card-suspicious-activity,Suspicious activity detected on card linked to account 60.169.29.226,medium,0.6
+2024-07-20T12:45:31,172.16.0.10,malicious,192.168.0.2,safe,anonymous,DeviceXYZ,credit-limit-change,Credit limit change requested for account 119.154.95.15,medium,0.5
+2024-07-20T12:45:31,10.1.1.1,malicious,172.16.1.101,safe,guest,ServerABC,identity-theft-alert,Potential identity theft detected for account 211.254.159.169,low,0.63
+2024-07-20T12:45:31,192.168.1.100,malicious,10.0.0.3,safe,anonymous,Workstation123,transaction-unusual-location,Transaction from unusual location for account 107.227.88.227,medium,0.6
+2024-07-20T12:45:31,192.168.0.1,malicious,192.168.0.3,safe,anonymous,ServerABC,identity-theft-alert,Potential identity theft detected for account 197.119.67.214,low,0.63
+2024-07-20T12:45:31,192.168.10.5,malicious,137.138.76.244,malicious,admin,ServerABC,identity-theft-alert,Potential identity theft detected for account 176.125.69.88,medium,0.9
+2024-07-20T12:45:31,10.0.0.2,malicious,162.19.165.81,malicious,guest,ServerABC,transaction-frequent,Frequent transactions detected for account 26.115.153.190,high,0.77
+2024-07-20T12:45:31,10.10.10.10,malicious,10.0.0.3,safe,admin,ServerABC,auth-lockout,User 'admin' locked out after multiple failed login attempts from account 225.41.87.96,high,0.57
+2024-07-20T12:45:31,172.16.1.100,malicious,172.16.1.101,safe,admin,Workstation123,auth-lockout,User 'admin' locked out after multiple failed login attempts from account 219.58.234.118,critical,0.57
+2024-07-20T12:45:31,10.0.0.100,malicious,192.168.0.2,safe,guest,ServerABC,money-laundering-suspicion,Potential money laundering activity detected for account 230.3.49.251,high,0.63
+2024-07-20T12:45:31,192.168.2.5,malicious,172.16.0.20,safe,user123,DeviceXYZ,payee-added,New payee added to account 244.87.100.1,low,0.47
+2024-07-20T12:45:31,210.234.111.59:9742,malicious,10.0.0.3,safe,admin,ServerABC,customer-info-change,Customer information changed for account 72.18.137.141,low,0.43
+2024-07-20T12:45:31,145.145.95.67:38160,malicious,192.168.0.2,safe,user123,ServerABC,account-closure,Account closure requested for 208.90.150.120,low,0.53
+2024-07-20T12:45:31,75.56.42.119:25142,malicious,10.0.0.101,safe,user123,ServerABC,money-laundering-suspicion,Potential money laundering activity detected for account 255.223.216.10,low,0.63
+2024-07-20T12:45:31,172.16.1.100,malicious,18.125.187.167,malicious,admin,DeviceXYZ,auth-failed,Failed login attempt for user 'admin' from account 84.193.89.38,critical,0.7
+2024-07-20T12:45:31,172.16.0.10,malicious,192.168.0.2,safe,anonymous,Workstation123,wire-transfer-large,Large wire transfer: $332678 from account 35.18.87.15 to 192.168.0.2,medium,0.63
+2024-07-20T12:45:31,192.168.1.100,malicious,192.168.2.6,safe,admin,ServerABC,insider-trading-suspicion,Potential insider trading flagged for account 90.139.96.141,medium,0.6
+2024-07-20T12:45:31,192.168.1.100,malicious,10.1.1.2,safe,admin,DeviceXYZ,wire-transfer-large,Large wire transfer: $274694 from account 59.180.51.70 to 10.1.1.2,medium,0.63
+2024-07-20T12:45:31,192.168.0.1,malicious,192.168.2.6,safe,admin,ServerABC,credit-limit-change,Credit limit change requested for account 101.116.80.157,high,0.5
+2024-07-20T12:45:31,172.16.0.10,malicious,10.1.1.2,safe,admin,ServerABC,money-laundering-suspicion,Potential money laundering activity detected for account 198.129.159.41,low,0.63
+2024-07-20T12:45:31,107.231.125.44:24842,malicious,10.10.10.20,safe,anonymous,ServerABC,money-laundering-suspicion,Potential money laundering activity detected for account 133.205.99.202,low,0.63
+2024-07-20T12:45:31,20.10.102.25:4841,malicious,172.16.0.20,safe,user123,Workstation123,transaction-unusual-location,Transaction from unusual location for account 130.44.128.60,low,0.6
+2024-07-20T12:45:31,10.0.0.2,malicious,172.16.0.20,safe,guest,Workstation123,money-laundering-suspicion,Potential money laundering activity detected for account 209.36.94.160,low,0.63
+2024-07-20T12:45:31,10.1.1.1,malicious,192.168.0.3,safe,anonymous,DeviceXYZ,customer-info-change,Customer information changed for account 115.82.174.156,medium,0.43
+2024-07-20T12:45:31,251.56.216.237:14928,malicious,192.168.10.6,safe,user123,DeviceXYZ,account-closure,Account closure requested for 231.8.172.113,medium,0.53
+2024-07-20T12:45:31,172.16.1.100,malicious,10.1.1.2,safe,guest,Workstation123,card-suspicious-activity,Suspicious activity detected on card linked to account 214.183.203.121,high,0.6
+2024-07-20T12:45:31,10.1.1.1,malicious,192.168.0.2,safe,admin,Workstation123,auth-failed,Failed login attempt for user 'admin' from account 205.158.214.156,medium,0.43
+2024-07-20T12:45:31,10.0.0.2,malicious,192.168.0.3,safe,admin,Workstation123,customer-info-change,Customer information changed for account 180.86.104.77,medium,0.43
+2024-07-20T12:45:31,192.168.10.5,malicious,10.0.0.101,safe,anonymous,DeviceXYZ,card-suspicious-activity,Suspicious activity detected on card linked to account 198.237.102.11,medium,0.6
+2024-07-20T12:45:31,172.16.1.100,malicious,192.168.2.6,safe,guest,ServerABC,auth-failed,Failed login attempt for user 'guest' from account 224.144.154.104,critical,0.43
+2024-07-20T12:45:31,10.1.1.1,malicious,10.0.0.101,safe,admin,DeviceXYZ,customer-info-change,Customer information changed for account 32.96.145.109,critical,0.43
+2024-07-20T12:45:31,10.0.0.100,malicious,172.16.0.20,safe,admin,ServerABC,identity-theft-alert,Potential identity theft detected for account 207.251.30.106,high,0.63
+2024-07-20T12:45:31,203.201.115.81:27639,malicious,172.16.0.20,safe,user123,Workstation123,identity-theft-alert,Potential identity theft detected for account 3.112.220.245,medium,0.63
+2024-07-20T12:45:31,10.0.0.100,malicious,172.16.1.101,safe,guest,DeviceXYZ,identity-theft-alert,Potential identity theft detected for account 135.234.215.12,high,0.63
+2024-07-20T12:45:31,192.168.10.5,malicious,192.168.0.2,safe,guest,ServerABC,credit-limit-change,Credit limit change requested for account 92.239.243.253,critical,0.5
+2024-07-20T12:45:31,192.168.2.5,malicious,172.16.1.101,safe,admin,Workstation123,wire-transfer-large,Large wire transfer: $820438 from account 131.161.117.156 to 172.16.1.101,medium,0.63
+2024-07-20T12:45:31,192.168.1.100,malicious,10.0.0.101,safe,guest,Workstation123,payee-added,New payee added to account 101.189.225.211,low,0.47
+2024-07-20T12:45:31,192.168.2.5,malicious,114.96.101.152,malicious,user123,Workstation123,transaction-large,Large transaction detected: $124882 for account 145.149.236.166,medium,0.8
+2024-07-20T12:45:31,10.10.10.10,malicious,172.16.1.101,safe,admin,ServerABC,phishing-report,Phishing attempt reported by user of account 155.2.24.240,medium,0.57
+2024-07-20T12:45:31,206.171.94.82:28799,malicious,10.10.10.20,safe,anonymous,DeviceXYZ,transaction-unusual-location,Transaction from unusual location for account 172.79.153.205,low,0.6
+2024-07-20T12:45:31,192.168.0.1,malicious,10.0.0.101,safe,admin,DeviceXYZ,transaction-unusual-location,Transaction from unusual location for account 214.130.94.41,medium,0.6
+2024-07-20T12:45:31,172.16.1.100,malicious,10.0.0.3,safe,guest,DeviceXYZ,auth-success,Successful login for user 'guest' from account 135.196.151.2,medium,0.37
+2024-07-20T12:45:31,195.252.81.112:30530,malicious,192.168.2.6,safe,anonymous,Workstation123,auth-success,Successful login for user 'anonymous' from account 199.220.34.163,critical,0.37
+2024-07-20T12:45:31,172.16.1.100,malicious,10.10.10.20,safe,admin,DeviceXYZ,insider-trading-suspicion,Potential insider trading flagged for account 245.50.20.166,low,0.6
+2024-07-20T12:45:31,192.168.1.100,malicious,172.16.1.101,safe,guest,Workstation123,auth-failed,Failed login attempt for user 'guest' from account 247.207.118.9,medium,0.43
+2024-07-20T12:45:31,192.168.0.1,malicious,192.168.10.6,safe,anonymous,ServerABC,insider-trading-suspicion,Potential insider trading flagged for account 24.152.62.76,medium,0.6
+2024-07-20T12:45:31,10.0.0.100,malicious,192.168.0.2,safe,anonymous,DeviceXYZ,credit-limit-change,Credit limit change requested for account 41.246.188.136,medium,0.5
+2024-07-20T12:45:31,172.16.0.10,malicious,192.168.0.2,safe,admin,DeviceXYZ,transaction-unusual-location,Transaction from unusual location for account 137.89.47.40,low,0.6
+2024-07-20T12:45:31,172.16.1.100,malicious,77.203.106.253,malicious,guest,ServerABC,auth-success,Successful login for user 'guest' from account 226.157.17.84,medium,0.63
+2024-07-20T12:45:31,10.0.0.2,malicious,172.16.1.101,safe,anonymous,Workstation123,transaction-large,Large transaction detected: $60467 for account 89.91.11.66,medium,0.53
+2024-07-20T12:45:31,192.168.2.5,malicious,97.27.228.119,malicious,anonymous,ServerABC,wire-transfer-large,Large wire transfer: $116775 from account 65.42.64.207 to 97.27.228.119,high,0.9
+2024-07-20T12:45:31,10.0.0.100,malicious,172.16.0.20,safe,anonymous,Workstation123,credit-limit-change,Credit limit change requested for account 55.148.191.30,low,0.5
+2024-07-20T12:45:31,196.245.233.202:16449,malicious,192.168.10.6,safe,anonymous,DeviceXYZ,account-closure,Account closure requested for 74.231.200.80,medium,0.53
+2024-07-20T12:45:31,172.16.0.10,malicious,192.168.10.6,safe,guest,ServerABC,identity-theft-alert,Potential identity theft detected for account 23.77.131.19,high,0.63
+2024-07-20T12:45:31,183.7.203.19:33200,malicious,203.99.72.125,malicious,admin,Workstation123,auth-lockout,User 'admin' locked out after multiple failed login attempts from account 144.200.251.237,medium,0.83
+2024-07-20T12:45:31,172.16.1.100,malicious,10.1.1.2,safe,guest,Workstation123,identity-theft-alert,Potential identity theft detected for account 141.104.68.41,high,0.63
+2024-07-20T12:45:31,10.0.0.100,malicious,192.168.0.3,safe,anonymous,ServerABC,wire-transfer-large,Large wire transfer: $650717 from account 40.18.175.201 to 192.168.0.3,medium,0.63
+2024-07-20T12:45:31,10.0.0.100,malicious,10.0.0.3,safe,user123,DeviceXYZ,auth-lockout,User 'user123' locked out after multiple failed login attempts from account 4.255.111.99,medium,0.57
+2024-07-20T12:45:31,192.168.1.100,malicious,192.168.0.3,safe,anonymous,DeviceXYZ,credit-limit-change,Credit limit change requested for account 255.204.223.21,medium,0.5
+2024-07-20T12:45:31,10.0.0.2,malicious,10.0.0.101,safe,admin,ServerABC,phishing-report,Phishing attempt reported by user of account 2.96.105.229,low,0.57
+2024-07-20T12:45:31,192.168.1.100,malicious,230.93.115.116,malicious,user123,DeviceXYZ,wire-transfer-large,Large wire transfer: $24823 from account 99.192.126.206 to 230.93.115.116,high,0.9
+2024-07-20T12:45:31,172.16.1.100,malicious,184.53.87.43,malicious,admin,DeviceXYZ,auth-lockout,User 'admin' locked out after multiple failed login attempts from account 68.208.77.219,low,0.83
+2024-07-20T12:45:31,192.168.2.5,malicious,10.10.10.20,safe,user123,Workstation123,customer-info-change,Customer information changed for account 98.138.172.165,high,0.43
+2024-07-20T12:45:31,10.10.10.10,malicious,10.1.1.2,safe,user123,Workstation123,money-laundering-suspicion,Potential money laundering activity detected for account 230.34.208.218,critical,0.63
+2024-07-20T12:45:31,10.0.0.2,malicious,192.168.2.6,safe,anonymous,ServerABC,transaction-frequent,Frequent transactions detected for account 110.146.79.229,low,0.5
+2024-07-20T12:45:31,192.168.2.5,malicious,172.16.0.20,safe,anonymous,ServerABC,auth-lockout,User 'anonymous' locked out after multiple failed login attempts from account 112.152.226.217,low,0.57
+2024-07-20T12:45:31,36.67.236.200:22285,malicious,10.0.0.3,safe,anonymous,ServerABC,card-suspicious-activity,Suspicious activity detected on card linked to account 40.176.24.113,medium,0.6
+2024-07-20T12:45:31,10.10.10.10,malicious,172.16.0.20,safe,guest,DeviceXYZ,card-suspicious-activity,Suspicious activity detected on card linked to account 251.215.120.228,low,0.6
+2024-07-20T12:45:31,172.16.1.100,malicious,192.168.2.6,safe,user123,DeviceXYZ,transaction-frequent,Frequent transactions detected for account 115.137.156.161,medium,0.5
+2024-07-20T12:45:31,11.235.96.196:19589,malicious,172.16.1.101,safe,anonymous,ServerABC,account-closure,Account closure requested for 146.111.19.183,low,0.53
+2024-07-20T12:45:31,172.16.0.10,malicious,10.1.1.2,safe,anonymous,ServerABC,transaction-frequent,Frequent transactions detected for account 242.168.11.139,high,0.5
+2024-07-20T12:45:31,192.168.10.5,malicious,10.0.0.101,safe,admin,DeviceXYZ,identity-theft-alert,Potential identity theft detected for account 143.79.233.123,low,0.63
+2024-07-20T12:45:31,172.16.0.10,malicious,10.10.10.20,safe,guest,DeviceXYZ,wire-transfer-large,Large wire transfer: $833322 from account 11.118.93.167 to 10.10.10.20,low,0.63
+2024-07-20T12:45:31,172.16.0.10,malicious,172.16.1.101,safe,anonymous,Workstation123,customer-info-change,Customer information changed for account 104.241.82.104,medium,0.43
+2024-07-20T12:45:31,172.16.1.100,malicious,10.1.1.2,safe,user123,ServerABC,transaction-large,Large transaction detected: $540805 for account 231.233.116.1,medium,0.53
+2024-07-20T12:45:31,10.0.0.2,malicious,192.168.10.6,safe,guest,DeviceXYZ,auth-failed,Failed login attempt for user 'guest' from account 41.65.53.140,high,0.43
+2024-07-20T12:45:31,65.100.166.109:62326,malicious,192.168.0.2,safe,anonymous,DeviceXYZ,insider-trading-suspicion,Potential insider trading flagged for account 77.44.195.166,high,0.6
+2024-07-20T12:45:31,172.16.1.100,malicious,10.1.1.2,safe,admin,DeviceXYZ,account-closure,Account closure requested for 123.109.43.45,high,0.53
+2024-07-20T12:45:31,10.0.0.100,malicious,192.168.0.3,safe,anonymous,Workstation123,auth-failed,Failed login attempt for user 'anonymous' from account 71.129.63.41,high,0.43
+2024-07-20T12:45:31,243.188.8.73:53799,malicious,172.16.0.20,safe,user123,DeviceXYZ,card-suspicious-activity,Suspicious activity detected on card linked to account 133.96.148.89,medium,0.6
+2024-07-20T12:45:31,44.150.186.163:57999,malicious,192.168.2.6,safe,guest,DeviceXYZ,transaction-unusual-location,Transaction from unusual location for account 35.70.157.76,high,0.6
+2024-07-20T12:45:31,192.168.0.1,malicious,192.168.10.6,safe,user123,DeviceXYZ,transaction-large,Large transaction detected: $943112 for account 200.243.64.209,medium,0.53
+2024-07-20T12:45:31,10.1.1.1,malicious,192.168.0.3,safe,guest,DeviceXYZ,auth-lockout,User 'guest' locked out after multiple failed login attempts from account 184.215.162.189,high,0.57
+2024-07-20T12:45:31,192.168.1.100,malicious,172.16.0.20,safe,user123,DeviceXYZ,auth-success,Successful login for user 'user123' from account 230.231.92.72,critical,0.37
+2024-07-20T12:45:31,175.194.16.239:60774,malicious,172.16.1.101,safe,admin,Workstation123,transaction-large,Large transaction detected: $398105 for account 43.97.179.244,low,0.53
+2024-07-20T12:45:31,192.168.10.5,malicious,192.168.10.6,safe,user123,ServerABC,credit-limit-change,Credit limit change requested for account 113.122.72.81,high,0.5
+2024-07-20T12:45:31,192.168.1.100,malicious,10.0.0.101,safe,user123,DeviceXYZ,account-closure,Account closure requested for 30.132.28.189,medium,0.53
+2024-07-20T12:45:31,172.16.1.100,malicious,192.168.0.2,safe,admin,DeviceXYZ,wire-transfer-large,Large wire transfer: $633211 from account 141.89.229.158 to 192.168.0.2,critical,0.63
+2024-07-20T12:45:31,10.10.10.10,malicious,10.0.0.101,safe,anonymous,DeviceXYZ,auth-success,Successful login for user 'anonymous' from account 158.153.41.180,low,0.37
+2024-07-20T12:45:31,10.0.0.2,malicious,172.16.0.20,safe,user123,DeviceXYZ,credit-limit-change,Credit limit change requested for account 103.51.212.118,medium,0.5
+2024-07-20T12:45:31,10.0.0.2,malicious,192.168.0.3,safe,user123,Workstation123,insider-trading-suspicion,Potential insider trading flagged for account 201.1.228.33,low,0.6
+2024-07-20T12:45:31,192.168.1.100,malicious,172.16.1.101,safe,guest,Workstation123,auth-failed,Failed login attempt for user 'guest' from account 151.189.94.101,low,0.43
+2024-07-20T12:45:31,10.0.0.2,malicious,192.168.0.3,safe,guest,Workstation123,transaction-frequent,Frequent transactions detected for account 39.218.136.247,low,0.5
+2024-07-20T12:45:31,26.188.90.72:54707,malicious,172.16.0.20,safe,user123,Workstation123,money-laundering-suspicion,Potential money laundering activity detected for account 26.68.160.218,medium,0.63
+2024-07-20T12:45:31,10.0.0.2,malicious,192.168.0.2,safe,anonymous,Workstation123,card-suspicious-activity,Suspicious activity detected on card linked to account 119.57.18.142,critical,0.6
+2024-07-20T12:45:31,25.46.85.100:53780,malicious,172.16.0.20,safe,admin,ServerABC,auth-success,Successful login for user 'admin' from account 24.184.69.39,high,0.37
+2024-07-20T12:45:31,128.240.135.177:43550,malicious,10.10.10.20,safe,admin,Workstation123,wire-transfer-large,Large wire transfer: $415685 from account 229.185.46.4 to 10.10.10.20,medium,0.63
+2024-07-20T12:45:31,192.168.10.5,malicious,10.1.1.2,safe,admin,DeviceXYZ,phishing-report,Phishing attempt reported by user of account 159.45.250.57,low,0.57
+2024-07-20T12:45:31,192.168.10.5,malicious,192.168.0.3,safe,user123,DeviceXYZ,account-closure,Account closure requested for 99.205.102.60,high,0.53
+2024-07-20T12:45:31,192.168.10.5,malicious,192.168.0.2,safe,admin,Workstation123,phishing-report,Phishing attempt reported by user of account 145.39.91.242,critical,0.57
+2024-07-20T12:45:31,10.0.0.100,malicious,172.16.0.20,safe,user123,DeviceXYZ,auth-lockout,User 'user123' locked out after multiple failed login attempts from account 106.169.103.240,medium,0.57
+2024-07-20T12:45:31,10.0.0.100,malicious,42.99.132.120,malicious,user123,ServerABC,phishing-report,Phishing attempt reported by user of account 251.139.229.215,critical,0.83
+2024-07-20T12:45:31,160.171.29.49:12303,malicious,192.168.0.3,safe,guest,ServerABC,auth-lockout,User 'guest' locked out after multiple failed login attempts from account 7.85.173.73,high,0.57
+2024-07-20T12:45:31,172.16.1.100,malicious,192.168.0.3,safe,admin,DeviceXYZ,money-laundering-suspicion,Potential money laundering activity detected for account 237.239.248.210,medium,0.63
+2024-07-20T12:45:31,135.96.69.224:51947,malicious,192.168.2.6,safe,admin,Workstation123,account-closure,Account closure requested for 239.44.35.17,high,0.53
+2024-07-20T12:45:31,172.16.0.10,malicious,192.168.2.6,safe,user123,Workstation123,transaction-unusual-location,Transaction from unusual location for account 253.60.218.24,high,0.6
+2024-07-20T12:45:31,206.198.58.48:20147,malicious,133.145.169.27,malicious,anonymous,Workstation123,auth-lockout,User 'anonymous' locked out after multiple failed login attempts from account 77.169.87.68,high,0.83
+2024-07-20T12:45:31,192.168.1.100,malicious,10.0.0.3,safe,anonymous,ServerABC,credit-limit-change,Credit limit change requested for account 223.27.95.21,medium,0.5
+2024-07-20T12:45:31,192.168.1.100,malicious,211.162.233.58,malicious,user123,Workstation123,transaction-large,Large transaction detected: $327041 for account 103.223.1.163,medium,0.8
+2024-07-20T12:45:31,10.0.0.100,malicious,10.1.1.2,safe,user123,DeviceXYZ,credit-limit-change,Credit limit change requested for account 203.69.250.48,low,0.5
+2024-07-20T12:45:31,80.181.83.28:51138,malicious,10.10.10.20,safe,admin,Workstation123,phishing-report,Phishing attempt reported by user of account 4.156.230.154,medium,0.57
+2024-07-20T12:45:31,192.168.10.5,malicious,192.168.0.2,safe,admin,DeviceXYZ,card-suspicious-activity,Suspicious activity detected on card linked to account 225.214.122.209,medium,0.6
+2024-07-20T12:45:31,82.219.189.40:59721,malicious,10.0.0.101,safe,guest,Workstation123,transaction-frequent,Frequent transactions detected for account 62.92.183.38,medium,0.5
+2024-07-20T12:45:31,172.16.1.100,malicious,10.0.0.101,safe,guest,ServerABC,insider-trading-suspicion,Potential insider trading flagged for account 165.76.122.106,medium,0.6
+2024-07-20T12:45:31,10.0.0.2,malicious,17.197.170.219,malicious,admin,DeviceXYZ,wire-transfer-large,Large wire transfer: $271959 from account 139.150.126.61 to 17.197.170.219,high,0.9
+2024-07-20T12:45:31,192.168.0.1,malicious,10.0.0.101,safe,anonymous,Workstation123,card-suspicious-activity,Suspicious activity detected on card linked to account 144.12.68.232,medium,0.6
+2024-07-20T12:45:31,192.168.2.5,malicious,192.168.2.6,safe,user123,DeviceXYZ,insider-trading-suspicion,Potential insider trading flagged for account 196.209.84.152,high,0.6
+2024-07-20T12:45:31,236.50.56.182:36827,malicious,10.0.0.101,safe,anonymous,ServerABC,account-closure,Account closure requested for 10.69.210.80,medium,0.53
+2024-07-20T12:45:31,10.10.10.10,malicious,10.1.1.2,safe,guest,ServerABC,auth-lockout,User 'guest' locked out after multiple failed login attempts from account 2.166.255.98,high,0.57
+2024-07-20T12:45:31,123.173.85.129:30375,malicious,10.0.0.3,safe,anonymous,Workstation123,customer-info-change,Customer information changed for account 90.242.22.142,medium,0.43
+2024-07-20T12:45:31,192.168.10.5,malicious,10.10.10.20,safe,anonymous,Workstation123,payee-added,New payee added to account 111.238.44.160,low,0.47
+2024-07-20T12:45:31,38.34.244.177:8643,malicious,172.16.0.20,safe,admin,ServerABC,card-suspicious-activity,Suspicious activity detected on card linked to account 187.242.31.240,low,0.6
+2024-07-20T12:45:31,122.208.58.24:36109,malicious,78.38.147.184,malicious,user123,DeviceXYZ,account-closure,Account closure requested for 171.223.188.151,low,0.8
+2024-07-20T12:45:31,192.168.1.100,malicious,51.231.251.132,malicious,anonymous,ServerABC,money-laundering-suspicion,Potential money laundering activity detected for account 164.111.2.24,medium,0.9
+2024-07-20T12:45:31,10.1.1.1,malicious,10.1.1.2,safe,admin,Workstation123,phishing-report,Phishing attempt reported by user of account 130.201.176.160,high,0.57
+2024-07-20T12:45:31,10.0.0.2,malicious,192.168.10.6,safe,user123,DeviceXYZ,transaction-frequent,Frequent transactions detected for account 91.8.32.177,critical,0.5
+2024-07-20T12:45:31,10.1.1.1,malicious,10.0.0.101,safe,user123,ServerABC,credit-limit-change,Credit limit change requested for account 129.125.236.127,low,0.5
+2024-07-20T12:45:31,10.0.0.100,malicious,10.1.1.2,safe,guest,ServerABC,transaction-large,Large transaction detected: $550650 for account 102.95.149.157,high,0.53
+2024-07-20T12:45:31,10.10.10.10,malicious,192.168.0.2,safe,user123,ServerABC,account-closure,Account closure requested for 219.57.131.57,medium,0.53
+2024-07-20T12:45:31,172.16.0.10,malicious,10.0.0.101,safe,anonymous,Workstation123,account-closure,Account closure requested for 21.211.170.194,critical,0.53
+2024-07-20T12:45:31,195.92.43.246:27828,malicious,10.1.1.2,safe,user123,ServerABC,customer-info-change,Customer information changed for account 108.151.172.228,medium,0.43
+2024-07-20T12:45:31,10.1.1.1,malicious,192.168.10.6,safe,guest,Workstation123,card-suspicious-activity,Suspicious activity detected on card linked to account 3.9.109.182,medium,0.6
+2024-07-20T12:45:31,10.1.1.1,malicious,10.10.10.20,safe,user123,DeviceXYZ,payee-added,New payee added to account 111.130.185.62,low,0.47
+2024-07-20T12:45:31,172.16.0.10,malicious,10.0.0.101,safe,admin,ServerABC,wire-transfer-large,Large wire transfer: $872197 from account 233.237.135.58 to 10.0.0.101,medium,0.63
+2024-07-20T12:45:31,2.132.8.191:50033,malicious,172.16.1.101,safe,admin,ServerABC,auth-failed,Failed login attempt for user 'admin' from account 222.50.68.68,critical,0.43
+2024-07-20T12:45:31,172.16.0.10,malicious,10.10.10.20,safe,user123,DeviceXYZ,wire-transfer-large,Large wire transfer: $784679 from account 194.145.148.164 to 10.10.10.20,high,0.63
+2024-07-20T12:45:31,10.0.0.100,malicious,172.16.1.101,safe,user123,ServerABC,account-closure,Account closure requested for 220.236.131.25,medium,0.53
+2024-07-20T12:45:31,172.16.0.10,malicious,192.168.0.2,safe,admin,DeviceXYZ,insider-trading-suspicion,Potential insider trading flagged for account 241.238.6.201,low,0.6
+2024-07-20T12:45:31,192.168.10.5,malicious,172.16.1.101,safe,admin,ServerABC,phishing-report,Phishing attempt reported by user of account 219.116.78.203,low,0.57
+2024-07-20T12:45:31,44.139.52.120:6523,malicious,10.0.0.3,safe,admin,Workstation123,account-closure,Account closure requested for 117.80.122.223,medium,0.53
+2024-07-20T12:45:31,17.88.84.173:27911,malicious,25.64.161.110,malicious,guest,ServerABC,money-laundering-suspicion,Potential money laundering activity detected for account 95.24.218.83,high,0.9
+2024-07-20T12:45:31,192.168.2.5,malicious,192.168.0.3,safe,guest,DeviceXYZ,transaction-frequent,Frequent transactions detected for account 245.101.220.228,critical,0.5
+2024-07-20T12:45:31,172.16.0.10,malicious,172.16.0.20,safe,admin,ServerABC,card-suspicious-activity,Suspicious activity detected on card linked to account 14.139.218.173,medium,0.6
+2024-07-20T12:45:31,172.16.0.10,malicious,166.87.167.33,malicious,guest,DeviceXYZ,card-suspicious-activity,Suspicious activity detected on card linked to account 54.159.83.171,medium,0.87
+2024-07-20T12:45:31,172.16.1.100,malicious,10.0.0.101,safe,user123,Workstation123,auth-success,Successful login for user 'user123' from account 81.78.89.239,high,0.37
+2024-07-20T12:45:31,172.16.0.10,malicious,172.16.0.20,safe,guest,Workstation123,wire-transfer-large,Large wire transfer: $186831 from account 178.42.55.40 to 172.16.0.20,critical,0.63
+2024-07-20T12:45:31,119.188.73.175:14063,malicious,192.168.2.6,safe,user123,Workstation123,payee-added,New payee added to account 255.116.235.110,high,0.47
+2024-07-20T12:45:31,10.10.10.10,malicious,192.168.0.2,safe,anonymous,DeviceXYZ,phishing-report,Phishing attempt reported by user of account 12.89.173.12,high,0.57
+2024-07-20T12:45:31,192.168.1.100,malicious,10.0.0.101,safe,user123,ServerABC,auth-lockout,User 'user123' locked out after multiple failed login attempts from account 50.165.154.144,medium,0.57
+2024-07-20T12:45:31,10.10.10.10,malicious,192.168.0.3,safe,guest,DeviceXYZ,customer-info-change,Customer information changed for account 26.231.92.230,high,0.43
+2024-07-20T12:45:31,192.168.0.1,malicious,192.168.2.6,safe,user123,DeviceXYZ,auth-lockout,User 'user123' locked out after multiple failed login attempts from account 109.148.53.183,high,0.57
+2024-07-20T12:45:31,192.168.0.1,malicious,192.168.0.2,safe,guest,Workstation123,money-laundering-suspicion,Potential money laundering activity detected for account 74.194.219.198,critical,0.63
+2024-07-20T12:45:31,87.166.104.54:52475,malicious,10.0.0.101,safe,user123,DeviceXYZ,card-suspicious-activity,Suspicious activity detected on card linked to account 156.47.206.235,high,0.6
+2024-07-20T12:45:31,172.16.1.100,malicious,10.10.10.20,safe,admin,ServerABC,identity-theft-alert,Potential identity theft detected for account 218.166.170.26,medium,0.63
+2024-07-20T12:45:31,192.168.10.5,malicious,10.1.1.2,safe,anonymous,ServerABC,transaction-unusual-location,Transaction from unusual location for account 47.68.196.246,high,0.6
+2024-07-20T12:45:31,246.79.4.149:61975,malicious,90.71.112.29,malicious,user123,DeviceXYZ,money-laundering-suspicion,Potential money laundering activity detected for account 197.64.139.202,critical,0.9
+2024-07-20T12:45:31,144.102.179.173:43849,malicious,10.0.0.101,safe,user123,ServerABC,phishing-report,Phishing attempt reported by user of account 189.173.221.149,high,0.57
+2024-07-20T12:45:31,10.10.10.10,malicious,10.10.10.20,safe,anonymous,DeviceXYZ,credit-limit-change,Credit limit change requested for account 241.130.68.167,critical,0.5
+2024-07-20T12:45:31,10.10.10.10,malicious,10.0.0.3,safe,user123,Workstation123,transaction-frequent,Frequent transactions detected for account 171.51.197.25,low,0.5
+2024-07-20T12:45:31,192.168.0.1,malicious,172.16.0.20,safe,anonymous,ServerABC,card-suspicious-activity,Suspicious activity detected on card linked to account 226.98.221.69,critical,0.6
+2024-07-20T12:45:31,172.16.1.100,malicious,35.197.119.165,malicious,user123,DeviceXYZ,phishing-report,Phishing attempt reported by user of account 106.37.150.120,critical,0.83
+2024-07-20T12:45:31,192.168.1.100,malicious,172.16.1.101,safe,user123,ServerABC,account-closure,Account closure requested for 24.170.19.3,low,0.53
+2024-07-20T12:45:31,172.16.1.100,malicious,10.0.0.101,safe,anonymous,DeviceXYZ,auth-lockout,User 'anonymous' locked out after multiple failed login attempts from account 231.58.111.139,medium,0.57
+2024-07-20T12:45:31,10.0.0.2,malicious,192.168.2.6,safe,user123,Workstation123,identity-theft-alert,Potential identity theft detected for account 57.39.160.163,medium,0.63
+2024-07-20T12:45:31,172.16.1.100,malicious,10.10.10.20,safe,anonymous,Workstation123,phishing-report,Phishing attempt reported by user of account 199.210.3.179,low,0.57
+2024-07-20T12:45:31,192.168.0.1,malicious,10.0.0.101,safe,guest,Workstation123,wire-transfer-large,Large wire transfer: $494877 from account 237.151.102.35 to 10.0.0.101,medium,0.63
+2024-07-20T12:45:31,10.1.1.1,malicious,172.16.0.20,safe,anonymous,Workstation123,customer-info-change,Customer information changed for account 72.24.79.127,low,0.43
+2024-07-20T12:45:31,192.168.1.100,malicious,10.0.0.101,safe,anonymous,ServerABC,auth-failed,Failed login attempt for user 'anonymous' from account 101.127.58.121,medium,0.43
+2024-07-20T12:45:31,108.63.7.212:60599,malicious,10.0.0.3,safe,guest,ServerABC,transaction-unusual-location,Transaction from unusual location for account 157.208.191.7,critical,0.6
+2024-07-20T12:45:31,10.0.0.2,malicious,239.100.25.19,malicious,admin,Workstation123,phishing-report,Phishing attempt reported by user of account 159.222.98.150,medium,0.83
+2024-07-20T12:45:31,172.16.0.10,malicious,192.168.0.2,safe,admin,Workstation123,auth-lockout,User 'admin' locked out after multiple failed login attempts from account 85.165.93.178,medium,0.57
+2024-07-20T12:45:31,10.0.0.2,malicious,243.115.114.116,malicious,guest,ServerABC,phishing-report,Phishing attempt reported by user of account 89.67.18.213,critical,0.83
+2024-07-20T12:45:31,192.168.1.100,malicious,10.0.0.101,safe,admin,ServerABC,card-suspicious-activity,Suspicious activity detected on card linked to account 124.4.130.166,medium,0.6
+2024-07-20T12:45:31,192.168.10.5,malicious,10.0.0.3,safe,guest,DeviceXYZ,transaction-frequent,Frequent transactions detected for account 148.185.77.16,critical,0.5
+2024-07-20T12:45:31,10.10.10.10,malicious,70.238.204.49,malicious,admin,DeviceXYZ,transaction-unusual-location,Transaction from unusual location for account 205.207.65.19,low,0.87
+2024-07-20T12:45:31,192.168.1.100,malicious,192.168.2.6,safe,guest,Workstation123,card-suspicious-activity,Suspicious activity detected on card linked to account 35.47.223.178,medium,0.6
+2024-07-20T12:45:31,10.1.1.1,malicious,192.168.2.6,safe,anonymous,DeviceXYZ,card-suspicious-activity,Suspicious activity detected on card linked to account 39.213.177.186,high,0.6
+2024-07-20T12:45:31,10.10.10.10,malicious,164.237.23.35,malicious,guest,ServerABC,payee-added,New payee added to account 75.148.42.172,high,0.73
+2024-07-20T12:45:31,192.168.10.5,malicious,10.0.0.3,safe,admin,DeviceXYZ,transaction-large,Large transaction detected: $195774 for account 250.152.221.166,medium,0.53
+2024-07-20T12:45:31,192.168.2.5,malicious,10.1.1.2,safe,admin,ServerABC,transaction-unusual-location,Transaction from unusual location for account 105.86.198.120,low,0.6
+2024-07-20T12:45:31,10.10.10.10,malicious,192.168.0.2,safe,guest,DeviceXYZ,identity-theft-alert,Potential identity theft detected for account 188.151.17.85,medium,0.63
+2024-07-20T12:45:31,172.16.1.100,malicious,192.168.0.3,safe,admin,Workstation123,insider-trading-suspicion,Potential insider trading flagged for account 208.5.253.160,high,0.6

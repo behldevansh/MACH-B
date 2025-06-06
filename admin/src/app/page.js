@@ -30,13 +30,36 @@ export default function Home() {
   const [uniquieDestinationCount, setUniquieDestinationCount] = useState(0);
   const [eventSeverityVTime, setEventSeverityVTime] = useState([]);
   const [eventSeverityDaily, setEventSeverityDaily] = useState([]);
+  // useEffect(() => {
+  //   const fn = async () => {
+  //     const response =  fetch(
+  //       `${process.env.NEXT_PUBLIC_BACKEND_URL}/admin/dashboard?threshold=0.7`
+  //     );
+  //     response.then(async (r) => {
+  //       const j = await r.json();
+  //       setEventsTypeVTime(j.eventTypeVTime);
+  //       setLogVTime(j.logVTime);
+  //       setCriticalAlertsVTime(j.criticalAlertsVTime);
+  //       setCriticalAlertGroupByEventType(j.criticalAlertGroupByEventType);
+  //       setLogCount(j.logcount);
+  //       setUniquieSourceCount(j.sourceIP);
+  //       setUniquieDestinationCount(j.destIP);
+  //       setEventSeverityVTime(j.eventSeverityVTime);
+  //       setEventSeverityDaily(j.eventSeverityDaily);
+  //     });
+  //   };
   useEffect(() => {
     const fn = async () => {
-      const response = fetch(
-        `${process.env.NEXT_PUBLIC_BACKEND_URL}/admin/dashboard?threshold=0.7`
-      );
-      response.then(async (r) => {
-        const j = await r.json();
+      try {
+        const response = await fetch(
+          `${process.env.NEXT_PUBLIC_BACKEND_URL}/admin/dashboard?threshold=0.7`
+        );
+  
+        if (!response.ok) {
+          throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+  
+        const j = await response.json();
         setEventsTypeVTime(j.eventTypeVTime);
         setLogVTime(j.logVTime);
         setCriticalAlertsVTime(j.criticalAlertsVTime);
@@ -46,10 +69,17 @@ export default function Home() {
         setUniquieDestinationCount(j.destIP);
         setEventSeverityVTime(j.eventSeverityVTime);
         setEventSeverityDaily(j.eventSeverityDaily);
-      });
+      } catch (error) {
+        console.error("Error fetching data:", error);
+      }
     };
+  
     fn();
   }, []);
+  
+ 
+
+  
 
   return (
     <>
