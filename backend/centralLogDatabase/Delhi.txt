@@ -1,0 +1,1 @@
+Delhi,2025-06-07T16:48,192.168.1.100,192.168.0.3,admin,DeviceXYZ,firewall-change,Firewall rule change: Port 5794 opened for IP 192.168.1.100,critical,0.30

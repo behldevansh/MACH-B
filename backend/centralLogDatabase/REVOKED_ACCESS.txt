@@ -1,0 +1,161 @@
+Device 'Workstation123' contains Stuxnet access revoked for Workstation123
+Malware detected: File '/path/to/file454.txt' found on device 'ServerABC' access revoked for ServerABC
+Firewall rule change: Port 25309 opened for IP 192.168.1.100 access revoked
+Malware detected: File '/path/to/file493.txt' found on device 'DeviceXYZ' access revoked for DeviceXYZ
+Device 'ServerABC' contains Melissa access revoked for ServerABC
+User anonymous tried downloading file containing vFormBook download revoked
+Device 'DeviceXYZ' contains Conficker access revoked for DeviceXYZ
+Device 'Workstation123' contains Stuxnet access revoked for Workstation123
+Malware detected: File '/path/to/file42.txt' found on device 'Workstation123' access revoked for Workstation123
+Device 'ServerABC' contains Melissa access revoked for ServerABC
+User 'guest' tried changing permissions for file '/path/to/file434.txt' access revoked
+Malware detected: File '/path/to/file435.txt' found on device 'Workstation123' access revoked for Workstation123
+Device 'DeviceXYZ' contains Melissa access revoked for DeviceXYZ
+Malware detected: File '/path/to/file361.txt' found on device 'DeviceXYZ' access revoked for DeviceXYZ
+User 'guest' tried changing permissions for file '/path/to/file954.txt' access revoked
+Device 'ServerABC' contains Stuxnet access revoked for ServerABC
+User 'user123' tried changing permissions for file '/path/to/file536.txt' access revoked
+Device 'Workstation123' contains Conficker access revoked for Workstation123
+Firewall rule change: Port 12340 opened for IP 192.168.1.100 access revoked
+Malware detected: File '/path/to/file527.txt' found on device 'DeviceXYZ' access revoked for DeviceXYZ
+Device 'DeviceXYZ' contains Conficker access revoked for DeviceXYZ
+User 'admin' tried changing permissions for file '/path/to/file255.txt' access revoked
+Malware detected: File '/path/to/file434.txt' found on device 'ServerABC' access revoked for ServerABC
+User 'user123' tried changing permissions for file '/path/to/file185.txt' access revoked
+Malware detected: File '/path/to/file508.txt' found on device 'Workstation123' access revoked for Workstation123
+User 'admin' tried changing permissions for file '/path/to/file213.txt' access revoked
+Device 'DeviceXYZ' contains Melissa access revoked for DeviceXYZ
+User admin tried downloading file containing vLokiBot download revoked
+User user123 tried downloading file containing vLokiBot download revoked
+Firewall rule change: Port 46918 opened for IP 10.0.0.2 access revoked
+Device 'ServerABC' contains Melissa access revoked for ServerABC
+Firewall rule change: Port 43269 opened for IP 192.168.10.5 access revoked
+User 'user123' tried changing permissions for file '/path/to/file699.txt' access revoked
+Malware detected: File '/path/to/file765.txt' found on device 'ServerABC' access revoked for ServerABC
+Malware detected: File '/path/to/file68.txt' found on device 'Workstation123' access revoked for Workstation123
+Malware detected: File '/path/to/file885.txt' found on device 'DeviceXYZ' access revoked for DeviceXYZ
+User 'guest' tried changing permissions for file '/path/to/file244.txt' access revoked
+Device 'Workstation123' contains Melissa access revoked for Workstation123
+Malware detected: File '/path/to/file564.txt' found on device 'Workstation123' access revoked for Workstation123
+User user123 tried downloading file containing vMOUSEISLAND download revoked
+Device 'ServerABC' contains Stuxnet access revoked for ServerABC
+Malware detected: File '/path/to/file59.txt' found on device 'Workstation123' access revoked for Workstation123
+User 'admin' tried changing permissions for file '/path/to/file669.txt' access revoked
+User anonymous tried downloading file containing vUrsnif download revoked
+Malware detected: File '/path/to/file412.txt' found on device 'ServerABC' access revoked for ServerABC
+User 'guest' tried changing permissions for file '/path/to/file352.txt' access revoked
+Firewall rule change: Port 19660 opened for IP 172.16.0.10 access revoked
+Firewall rule change: Port 35029 opened for IP 192.168.10.5 access revoked
+User 'admin' tried changing permissions for file '/path/to/file954.txt' access revoked
+Malware detected: File '/path/to/file992.txt' found on device 'DeviceXYZ' access revoked for DeviceXYZ
+Device 'Workstation123' contains Melissa access revoked for Workstation123
+User 'anonymous' tried changing permissions for file '/path/to/file238.txt' access revoked
+Device 'Workstation123' contains Stuxnet access revoked for Workstation123
+User 'admin' tried changing permissions for file '/path/to/file79.txt' access revoked
+Device 'DeviceXYZ' contains Stuxnet access revoked for DeviceXYZ
+User anonymous tried downloading file containing vAZORult download revoked
+Firewall rule change: Port 40423 opened for IP 172.16.1.100 access revoked
+User admin tried downloading file containing vUrsnif download revoked
+User 'anonymous' tried changing permissions for file '/path/to/file270.txt' access revoked
+Malware detected: File '/path/to/file352.txt' found on device 'DeviceXYZ' access revoked for DeviceXYZ
+Device 'DeviceXYZ' contains Stuxnet access revoked for DeviceXYZ
+User 'admin' tried changing permissions for file '/path/to/file17.txt' access revoked
+Firewall rule change: Port 43856 opened for IP 172.16.1.100 access revoked
+Device 'ServerABC' contains Melissa access revoked for ServerABC
+Device 'Workstation123' contains Conficker access revoked for Workstation123
+Malware detected: File '/path/to/file534.txt' found on device 'DeviceXYZ' access revoked for DeviceXYZ
+User 'admin' tried changing permissions for file '/path/to/file481.txt' access revoked
+Device 'DeviceXYZ' contains Conficker access revoked for DeviceXYZ
+Device 'ServerABC' contains Conficker access revoked for ServerABC
+User 'guest' tried changing permissions for file '/path/to/file613.txt' access revoked
+Malware detected: File '/path/to/file153.txt' found on device 'Workstation123' access revoked for Workstation123
+User guest tried downloading file containing vLokiBot download revoked
+Firewall rule change: Port 51352 opened for IP 192.168.1.100 access revoked
+Firewall rule change: Port 11089 opened for IP 192.168.10.5 access revoked
+Firewall rule change: Port 11042 opened for IP 192.168.10.5 access revoked
+User 'admin' tried changing permissions for file '/path/to/file995.txt' access revoked
+User 'guest' tried changing permissions for file '/path/to/file24.txt' access revoked
+Malware detected: File '/path/to/file380.txt' found on device 'ServerABC' access revoked for ServerABC
+Malware detected: File '/path/to/file929.txt' found on device 'Workstation123' access revoked for Workstation123
+User user123 tried downloading file containing vLokiBot download revoked
+User anonymous tried downloading file containing vAZORult download revoked
+User 'anonymous' tried changing permissions for file '/path/to/file974.txt' access revoked
+User user123 tried downloading file containing vFormBook download revoked
+Malware detected: File '/path/to/file497.txt' found on device 'Workstation123' access revoked for Workstation123
+Malware detected: File '/path/to/file36.txt' found on device 'ServerABC' access revoked for ServerABC
+Device 'ServerABC' contains Stuxnet access revoked for ServerABC
+User user123 tried downloading file containing vAgent Tesla download revoked
+Firewall rule change: Port 38631 opened for IP 172.16.0.10 access revoked
+Malware detected: File '/path/to/file437.txt' found on device 'ServerABC' access revoked for ServerABC
+Malware detected: File '/path/to/file47.txt' found on device 'ServerABC' access revoked for ServerABC
+Malware detected: File '/path/to/file906.txt' found on device 'DeviceXYZ' access revoked for DeviceXYZ
+User 'anonymous' tried changing permissions for file '/path/to/file775.txt' access revoked
+Device 'DeviceXYZ' contains Melissa access revoked for DeviceXYZ
+Malware detected: File '/path/to/file983.txt' found on device 'Workstation123' access revoked for Workstation123
+Device 'ServerABC' contains Conficker access revoked for ServerABC
+Malware detected: File '/path/to/file512.txt' found on device 'DeviceXYZ' access revoked for DeviceXYZ
+Malware detected: File '/path/to/file943.txt' found on device 'Workstation123' access revoked for Workstation123
+Device 'Workstation123' contains Conficker access revoked for Workstation123
+Malware detected: File '/path/to/file226.txt' found on device 'Workstation123' access revoked for Workstation123
+Device 'Workstation123' contains Melissa access revoked for Workstation123
+User anonymous tried downloading file containing vLokiBot download revoked
+Malware detected: File '/path/to/file55.txt' found on device 'DeviceXYZ' access revoked for DeviceXYZ
+Device 'DeviceXYZ' contains Conficker access revoked for DeviceXYZ
+User 'anonymous' tried changing permissions for file '/path/to/file847.txt' access revoked
+Malware detected: File '/path/to/file122.txt' found on device 'DeviceXYZ' access revoked for DeviceXYZ
+User 'user123' tried changing permissions for file '/path/to/file473.txt' access revoked
+Device 'DeviceXYZ' contains Melissa access revoked for DeviceXYZ
+Firewall rule change: Port 41916 opened for IP 10.0.0.2 access revoked
+User user123 tried downloading file containing vFormBook download revoked
+Firewall rule change: Port 1669 opened for IP 10.10.10.10 access revoked
+Malware detected: File '/path/to/file746.txt' found on device 'DeviceXYZ' access revoked for DeviceXYZ
+User user123 tried downloading file containing vFormBook download revoked
+Firewall rule change: Port 39080 opened for IP 192.168.2.5 access revoked
+Device 'Workstation123' contains Melissa access revoked for Workstation123
+User 'admin' tried changing permissions for file '/path/to/file269.txt' access revoked
+User 'anonymous' tried changing permissions for file '/path/to/file79.txt' access revoked
+Malware detected: File '/path/to/file680.txt' found on device 'ServerABC' access revoked for ServerABC
+User user123 tried downloading file containing vUrsnif download revoked
+Malware detected: File '/path/to/file673.txt' found on device 'ServerABC' access revoked for ServerABC
+User 'anonymous' tried changing permissions for file '/path/to/file108.txt' access revoked
+Device 'Workstation123' contains Conficker access revoked for Workstation123
+User 'anonymous' tried changing permissions for file '/path/to/file594.txt' access revoked
+Device 'ServerABC' contains Stuxnet access revoked for ServerABC
+Malware detected: File '/path/to/file930.txt' found on device 'DeviceXYZ' access revoked for DeviceXYZ
+User 'user123' tried changing permissions for file '/path/to/file311.txt' access revoked
+Device 'Workstation123' contains Melissa access revoked for Workstation123
+Malware detected: File '/path/to/file783.txt' found on device 'DeviceXYZ' access revoked for DeviceXYZ
+Device 'DeviceXYZ' contains Conficker access revoked for DeviceXYZ
+User admin tried downloading file containing vMOUSEISLAND download revoked
+User guest tried downloading file containing vUrsnif download revoked
+User 'user123' tried changing permissions for file '/path/to/file584.txt' access revoked
+Malware detected: File '/path/to/file29.txt' found on device 'DeviceXYZ' access revoked for DeviceXYZ
+Device 'ServerABC' contains Conficker access revoked for ServerABC
+Device 'DeviceXYZ' contains Stuxnet access revoked for DeviceXYZ
+Device 'ServerABC' contains Melissa access revoked for ServerABC
+Firewall rule change: Port 20055 opened for IP 192.168.10.5 access revoked
+Malware detected: File '/path/to/file126.txt' found on device 'Workstation123' access revoked for Workstation123
+Firewall rule change: Port 62032 opened for IP 192.168.1.100 access revoked
+Device 'DeviceXYZ' contains Conficker access revoked for DeviceXYZ
+Firewall rule change: Port 22254 opened for IP 192.168.0.1 access revoked
+User guest tried downloading file containing vFormBook download revoked
+User 'user123' tried changing permissions for file '/path/to/file957.txt' access revoked
+User admin tried downloading file containing vLokiBot download revoked
+Device 'ServerABC' contains Conficker access revoked for ServerABC
+Malware detected: File '/path/to/file553.txt' found on device 'ServerABC' access revoked for ServerABC
+Malware detected: File '/path/to/file535.txt' found on device 'DeviceXYZ' access revoked for DeviceXYZ
+Firewall rule change: Port 1977 opened for IP 48.242.203.159 access revoked
+User 'admin' tried changing permissions for file '/path/to/file653.txt' access revoked
+User 'user123' tried changing permissions for file '/path/to/file226.txt' access revoked
+User 'guest' tried changing permissions for file '/path/to/file910.txt' access revoked
+User guest tried downloading file containing vFormBook download revoked
+User 'admin' tried changing permissions for file '/path/to/file284.txt' access revoked
+Device 'Workstation123' contains Conficker access revoked for Workstation123
+Firewall rule change: Port 53035 opened for IP 192.168.1.100 access revoked
+Firewall rule change: Port 48914 opened for IP 207.17.178.193 access revoked
+Malware detected: File '/path/to/file795.txt' found on device 'Workstation123' access revoked for Workstation123
+Firewall rule change: Port 60097 opened for IP 10.1.1.1 access revoked
+Device 'ServerABC' contains Stuxnet access revoked for ServerABC
+Device 'DeviceXYZ' contains Conficker access revoked for DeviceXYZ
+Malware detected: File '/path/to/file957.txt' found on device 'ServerABC' access revoked for ServerABC
+User 'user123' tried changing permissions for file '/path/to/file554.txt' access revoked
